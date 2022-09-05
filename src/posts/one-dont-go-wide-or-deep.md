@@ -14,11 +14,15 @@ Well, if you're someone who's really interested (and has the time and money) in 
 
 For the rest of people, who mostly ask these questions to well meaning Senior and above level engineers, they will get a litany of responses.
 
-Things include
+Things like:
 
 > Go deep on algorithms because you'll use them everywhere in your career.
 
+--or--
+
 They might include recommending learning something like Go, Rust, or C++ because either it's a low level language or because the concepts practiced within it are carried through the rest of programming languages the world over.
+
+--or--
 
 The might recommend you go deep on a single language. Maybe become awesome at something like Typescript because you can learn and play around on the front end or the backend.
 
@@ -40,14 +44,13 @@ Realistically, you should code every day (that you're not on break or on vacatio
 
 If you're employed, you really should try to spend close to 4 hours a day (early in your career!) coding. Ideally it should be on specific problems that you can solve (code katas or other challenges will do) but ones that stretch you. Again, an employer will really help here, but even if you don't have one, the goal isn't necessarily to learn the hot new technology, or do something fancy. I've found in my career that problems will often become the most interesting to me right as they become the most useful.
 
-The goal is like exercise, do something that pushes you just a bit, but not so much you hurt yourself. This is in direct contrast to advice that teaches you to learn a specific language or a variety. I mostly don't like it because I find long lists (without priorities) incredibly stressful and not all that useful towards doing the thing of learning. Solving one problem, at a time for a set
+The goal is like exercise, do something that pushes you just a bit, but not so much you hurt yourself. This is in direct contrast to advice that teaches you to learn a specific language or a variety. I mostly don't like it because I find long lists (without priorities) incredibly stressful and not all that useful towards doing the thing of learning.
 
 ### Resources
 
-- Codepen
-- Code katas
-- Exorcism
-- Front end Masters
+Early on in code bootcamp, I'd pick pretty simple UI on sites like Dribbble and try to replicate them to my best ability, or maybe do a couple of Code Katas. Though, it's really best to try to solve real problems that interest you. Doing mock work can only take you so far, as the types of problems you'll run into there are often not all that useful to what you're currently trying to accomplish.
+
+I've tended to dislike most tutorials, but [Front-end Masters](https://frontendmasters.com) generally has some of the widest depth and breadth of entry-level (and further) content that I've found.
 
 ## 2. Find a Community of People To Give You Feedback
 
@@ -59,7 +62,7 @@ Being involved in a community of people you trust will also expose you to way mo
 
 ## Aside: The Job of It All
 
-Look, the easiest way to do this is to find a job that provides these things. It will give you the impetus and the
+Look, the easiest way to do this is to find a job that provides these things. It will give you the impetus to work on this stuff and the final compensation to allow you to do so. But not all jobs are created equally.
 
 ## General Principle
 
@@ -76,3 +79,8 @@ There are a few truly great email lists I think genuinely changed my life as an 
 At first I thought this was faking it, but as I've gotten more experience I've realized that having a list of stuff you can wave your hands around about, and stuff that you know enough to ask some well-timed questions will serve you really well. Most of the stuff I've never had to learn in depth, but the couple of times I've needed to dive in (I'm thinking about Serverless and Typescript most recently), having that initial vocabulary experience was really helpful in guiding me towards learning the stuff more quickly.
 
 ## Resources
+
+The reality is there aren't **that** many awe-inspiring articles going around the internet every week. Just find one you want to graze, and go through it. Here are a couple of the general purpose ones I find the most helpful:
+
+- [Progamming Digest](https://programmingdigest.net)
+- [Pointer](https://pointer.io)
