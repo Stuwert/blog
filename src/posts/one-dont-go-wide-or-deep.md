@@ -1,8 +1,8 @@
 ---
-title: Maybe Don't Go Wide Or Deep
+title: Maybe Don't Try to Do Everything Immediately
 date: "2022-09-10"
 tags: [engineering, advice]
-description: An article exploring what exactly the best way to start your tech career or take next steps
+description: An article exploring what exactly the best way to start your tech career or take next steps after learning how to code.
 permalink: posts/{{ title | slugify }}/index.html
 ---
 
@@ -83,4 +83,4 @@ At first I thought this was faking it, but as I've gotten more experience I've r
 The reality is there aren't **that** many awe-inspiring articles going around the internet every week. Just find one you want to graze, and go through it. Here are a couple of the general purpose ones I find the most helpful:
 
 - [Progamming Digest](https://programmingdigest.net)
-- [Pointer](https://pointer.io)
+- [Pointer](http://www.pointer.io/)

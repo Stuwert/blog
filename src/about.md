@@ -7,4 +7,6 @@ name: Stuart Urback
 
 Hi I'm Stuart.
 
-I'm a software engineer with a small background in game research and project management.
+I've been in technology (as a software engineer or project manager) for about 10 years now.
+
+This blog will contain a host of writing from things as specific as how to debug the `datasource` file when trying to implement Typeorm to things as broad as general tech tips and advice, or things outside of engineering like games and general media.
