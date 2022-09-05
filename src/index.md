@@ -1,8 +1,8 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: "Stuart Urback"
 ---
 
-# Hello World
+# Welcome
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+This is my personal website, collecting examples of writing, projects, and the occasional book or game review.
