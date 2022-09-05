@@ -3,7 +3,7 @@ title: Maybe Don't Go Wide Or Deep
 date: "2022-09-10"
 tags: [engineering, advice]
 description: An article exploring what exactly the best way to start your tech career or take next steps
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ title | slugify }}/index.html
 ---
 
 The most oft asked questions, especially in your first 0-2 years of being an engineer is, what should I learn next? (You will continue to have these questions for the rest of your life, but by the time you hit year 5 you've mostly stopped asking them in polite conversation).

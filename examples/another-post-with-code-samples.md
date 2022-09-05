@@ -1,8 +1,8 @@
 ---
 title: Another post with code samples
 description: Health goth raw denim vaporware waistcoat, vegan neutra glossier. Cronut chartreuse tbh meh schlitz. Snackwave lumbersexual pinterest narwhal.
-permalink: posts/{{ title | slug }}/index.html
-date: '2020-11-19'
+permalink: posts/{{ title | slugify }}/index.html
+date: "2020-11-19"
 tags: [demo-content, code]
 ---
 
