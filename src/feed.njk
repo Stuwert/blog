@@ -8,15 +8,16 @@ eleventyExcludeFromCollections: true
   <subtitle></subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
   <link href="{{ site.url }}/"/>
-  {% if collections.posts | length %}
-    <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+  {% set publishedPosts = collections.posts | status('published') %}
+  {% if publishedPosts | length %}
+    <updated>{{ publishedPosts | rssLastUpdatedDate }}</updated>
   {% endif %}
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  {% for post in collections.posts %}
+  {% for post in publishedPosts %}
     {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
     <entry>
       <title>{{ post.data.title }}</title>
