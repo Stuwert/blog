@@ -9,5 +9,5 @@ permalink: /blog/
   {% include "tags-list.njk" %}
 </div>
 
-{% set postslist = collections.posts %}
+{% set postslist = collections.posts | status('published') %}
 {% include "posts-list.njk" %}

@@ -4,6 +4,7 @@ date: "2022-09-10"
 tags: [engineering, advice]
 description: An article exploring what exactly the best way to start your tech career or take next steps after learning how to code.
 permalink: posts/{{ title | slugify }}/index.html
+status: published
 ---
 
 The most oft asked questions, especially in your first 0-2 years of being an engineer is, what should I learn next? (You will continue to have these questions for the rest of your life, but by the time you hit year 5 you've mostly stopped asking them in polite conversation).
@@ -60,9 +61,31 @@ Honestly, the best help I ever got was being able to be around other experienced
 
 Being involved in a community of people you trust will also expose you to way more new ideas (in a way less stressful way) than you could ever tackle on your own.
 
-## Aside: The Job of It All
+### The Job of It All
 
 Look, the easiest way to do this is to find a job that provides these things. It will give you the impetus to work on this stuff and the final compensation to allow you to do so. But not all jobs are created equally.
+
+If you're looking for a job that meets the "community" requirements, here's what I'd recommend.
+
+1. Find Senior and above engineers.
+2. It should be a place that believes in the value of having people who ask obvious questions
+3. Code Reviews should be an important part of the culture
+4. It should want you to ship code early and often
+
+### Job or Otherwise
+
+So if you're not a great job, or you don't have a job yet and want to build a community, here's what I'd look for.
+
+Will Larson has a great post about why [activity-oriented communities are more stable](https://lethain.com/why-not-create-staffeng-community/). What it comes down to is that you want to be around people who are trying to solve a similar set of problems as you and who are a variety of skill levels (from very similar experience to much more experienced).
+
+This means that a group you worked closely with at a bootcamp might not be the best bet. If you don't have an obvious community in front of you, here's what I might try to accomplish:
+
+1. Find 2-3 other developers of your skill set who would be interested in taking a course with you. It can be a free course online or
+2. Agree to go through it at the same pace and create a new codebase where you all will work. (This could be )
+3. Push PRs for this to the same codebase and ask each other for critiques on your PRs.
+4. Find a senior dev (or set) who can answer specific questions for you. This could be in the form of a local slack channel or someone connected to you through your bootcamp).
+
+What I want to note here is that it's not necessarily important to look for a mentor or someone to fulfill a particular role. Your goal is to get reps and to get reps working as closely as possible with other people. Tying yourself to another person (experienced or otherwise) won't necessarily facilitate that goal.
 
 ## General Principle
 
