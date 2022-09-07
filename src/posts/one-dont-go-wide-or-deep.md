@@ -13,7 +13,7 @@ The most oft asked questions, especially in your first 0-2 years of being an eng
 
 Well, if you're someone who's really interested (and has the time and money) in becoming a top 1% of engineers. This blog post probably isn't for you. A quick google search will give you all of the very specific (and very stressful things) you can do to become a top programmer.
 
-For the rest of people, who mostly ask these questions to well meaning Senior and above level engineers, they will get a litany of responses.
+For the rest of people, who mostly ask these questions to well-meaning Senior and above level engineers, they will get a litany of responses.
 
 Things like:
 
@@ -27,15 +27,27 @@ They might include recommending learning something like Go, Rust, or C++ because
 
 The might recommend you go deep on a single language. Maybe become awesome at something like Typescript because you can learn and play around on the front end or the backend.
 
-Or, maybe go wide. Dabble in a bunch of different things.
+Or, maybe they'll say
 
-I, personally, mostly find this advice incredibly stressful and not necessarily all that useful to someone who is just starting out and not entirely sure where the arc of their career is going to take them. There the type of things that make a lot of sense [connecting the dots backward](insert Steve jobs posts), but might not actually be all that useful moving forwards.
+> go wide. Dabble in a bunch of different things. Becoming well rounded is important.
 
-In my experience there are two fundamental concepts (and one bonus!) you should focus on in your software engineering career:
+Personally, I find this advice incredibly stressful and not necessarily all that useful to someone who is just starting out and not entirely sure where the arc of their career is going to take them. There the type of things that make a lot of sense, as [that Stanford address says](https://news.stanford.edu/2005/06/12/youve-got-find-love-jobs-says/), you can only connect the dots backwards, not forwards.
+
+## General Principles
+
+Basically what I'm saying is that while it's helpful to pick some goals (Maybe you want to ship a project, maybe you want gainful employment, both are great) you don't need to obsess over what you're doing every day to reach those goals. Being thoughtful, taking care of yourself, and evaluating how you're feeling about those goals will take you way further (or at least took me way further) than trying to explicitly script out what I wanted to learn.
+
+Honestly, being able to do those things _might_ have made me a better programmer. There are probably better programmers who can do those things than me. But... I'm also a reasonably successful engineer. And at some point we have to trust the fact that the people will be able to make optimal decisions as they learn more.
+
+If you're starting out (and even if you're not starting out if you're not starting out), continuing to code and learn tomorrow (and the day after) is way more important than whatever you might crunch on today. Compounding knowledge is really a thing.
+
+## The Actual Advice
+
+So giving forward looking advice should be less about specific objectives I hit that got me here, and should be about habits I developed (or lucked into) that were useful, regardless of _what_ I was doing as an engineer. In my experience there are two fundamental concepts (and one bonus!) you should focus on in your software engineering career:
 
 1. Making coding a (mostly) daily practice.
 2. Finding a community of people to give you feedback.
-3. Scan read a variety of sources so you can sound intelligent.
+3. Skim a variety of sources so you can sound intelligent.
 
 Simultaneously luckily, and also the most challenging, both of the first two (and likely the third) can be provided to you by gainful employment. But, not all employers will support you on either of those things, and you can get these things without employers.
 
@@ -61,9 +73,9 @@ Honestly, the best help I ever got was being able to be around other experienced
 
 Being involved in a community of people you trust will also expose you to way more new ideas (in a way less stressful way) than you could ever tackle on your own.
 
-### The Job of It All
+## The Job of It All
 
-Look, the easiest way to do this is to find a job that provides these things. It will give you the impetus to work on this stuff and the final compensation to allow you to do so. But not all jobs are created equally.
+Look, the easiest way to do this is to find a job that provides these things. It will give you the impetus to work on interesting problems and the final compensation to allow you to do so. But not all jobs are created equally.
 
 If you're looking for a job that meets the "community" requirements, here's what I'd recommend.
 
@@ -74,32 +86,26 @@ If you're looking for a job that meets the "community" requirements, here's what
 
 ### Job or Otherwise
 
-So if you're not a great job, or you don't have a job yet and want to build a community, here's what I'd look for.
+So if you don't have a great job, or you don't have a job yet and want to build a community, here's what I'd look for. What I want to note here is that it's not necessarily important to look for a mentor or someone to fulfill a particular role. Your goal is to get reps and to get reps working as closely as possible with other people. Tying yourself to another person (experienced or otherwise) won't necessarily facilitate that goal.
 
-Will Larson has a great post about why [activity-oriented communities are more stable](https://lethain.com/why-not-create-staffeng-community/). What it comes down to is that you want to be around people who are trying to solve a similar set of problems as you and who are a variety of skill levels (from very similar experience to much more experienced).
+Will Larson has a great post about why [activity-oriented communities are more stable](https://lethain.com/why-not-create-staffeng-community/). What it comes down to is that you want to be around people who are trying to solve a similar set of problems as you (from very similar experience to much more experienced). This means you're not necessarily looking for people who you immediately get along with.
 
 This means that a group you worked closely with at a bootcamp might not be the best bet. If you don't have an obvious community in front of you, here's what I might try to accomplish:
 
 1. Find 2-3 other developers of your skill set who would be interested in taking a course with you. It can be a free course online or
 2. Agree to go through it at the same pace and create a new codebase where you all will work. (This could be )
 3. Push PRs for this to the same codebase and ask each other for critiques on your PRs.
-4. Find a senior dev (or set) who can answer specific questions for you. This could be in the form of a local slack channel or someone connected to you through your bootcamp).
+4. Find a senior dev (or set) who can answer specific questions for you. (This could be in the form of a local slack channel or someone connected to you through your bootcamp).
 
-What I want to note here is that it's not necessarily important to look for a mentor or someone to fulfill a particular role. Your goal is to get reps and to get reps working as closely as possible with other people. Tying yourself to another person (experienced or otherwise) won't necessarily facilitate that goal.
-
-## General Principle
-
-Basically what I'm saying is that while it's helpful to pick some goals. (Maybe you want to ship a project, maybe you want gainful employment, both are great) But you don't need to obsess over what you're doing every day to reach those goals. Being thoughtful, taking care of yourself, and evaluating how you're feeling about those goals will take you way further (or at least took me way further) than trying to explicitly script out what I wanted to learn.
-
-Honestly, being able to do those things _might_ have made me a better programmer. There are probably better programmers who can do those things than me. But... I'm also a reasonably successful engineer. And at some point we have to trust the fact that the people will be able to make optimal decisions as they learn more.
-
-If you're starting out (s\*\*\* if you're not starting out), continuing to code and learn tomorrow (and the day after) is way more important than whatever you might crunch on today. Compounding knowledge is really a thing.
+The other thing to note here is that people who make good friends will often not make great teammates from a learning perspective. The stuff that makes you like hanging out with them (similar opinions, diverse interests) make them not always great for learning (you want similar interests, diverse opinions). I've made this mistake too many time to count, thinking that people I get along with will make great study buddies and sometimes they do but very often they do not.
 
 ## Bonus 3. Skim a Bunch of Articles
 
 There are a few truly great email lists I think genuinely changed my life as an engineer. Basically there were a few times when I would chat with people at the many Meetups I would try to go to desperate for a job, where I would carry a conversation longer than I had any right to simply because I had read an article and new some vocabulary.
 
 At first I thought this was faking it, but as I've gotten more experience I've realized that having a list of stuff you can wave your hands around about, and stuff that you know enough to ask some well-timed questions will serve you really well. Most of the stuff I've never had to learn in depth, but the couple of times I've needed to dive in (I'm thinking about Serverless and Typescript most recently), having that initial vocabulary experience was really helpful in guiding me towards learning the stuff more quickly.
+
+The scanning part is also incredibly important here. Articles will want you (beg you, in fact) to read them deeply. You simply don't need to do that unless you really want to. Getting comfortable with vocabulary and terminology is more important than trying to pick up Go or Rust from the hot new blog post.
 
 ## Resources
 
