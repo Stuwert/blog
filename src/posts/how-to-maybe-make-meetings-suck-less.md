@@ -2,20 +2,12 @@
 title: How to Maybe Lead a Good Meeting
 date: "2022-09-12"
 tags: [engineering, advice, meetings, leadership]
-description: 5 thoughts on how to make your meetings suck less, maybe
+description: Quick thoughts on how to make your meetings suck less, maybe
 permalink: posts/{{ title | slugify }}/index.html
-status: draft
+status: published
 ---
 
-- Be explicit about what participation looks like
-- Visualize your goals + narrow them
-- (Gently) interrupt people and redirect them if they're rambling
-- Keep an eye out on participation
-- Avoid cursed conversations
-- Use Status to Your Advantage
-- Meetings should have a point and "Culture Building" wears out its welcome pretty quickly
-
-Somewhat surprisingly to me, I've collected a bit of a reputation and an ability to run a solid meetings. I get a lot of positive feedback about how meetings I run being energizing and containing great outcomes.
+Somewhat surprisingly to me, I've collected a bit of a reputation and an ability to run a solid meetings. I get a lot of positive feedback about how meetings I run being energizing and containing great outcomes. To be honest, I'm not entirely sure how much of this is true, but I do believe that meeting skill (and skill at avoiding meetings) is something worth looking at as a talent to hone rather than something to avoid in the name of more valuable pursuits. For at least the short term future, doing anything of moderate complexity will require coordination and work with other human beings (i.e. meetings).
 
 I think meeting leadership is a skill (one that I'm continually trying to develop) and I want to try to share and articulate what I've learned here:
 
