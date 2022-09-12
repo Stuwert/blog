@@ -21,17 +21,17 @@ How well your meeting is **reviewed** has a **loose correlation** with how succe
 
 The goal of this article is to share some tips and tricks to help you run a more successful and more fun meeting, but no amount of positive feedback actually means you're meeting was a success. There are a couple of reasons for this:
 
-1. Humans are really bad at judging whether or not they successfully learned content
+### Humans are really bad at judging whether or not they successfully learned content
 
 Studies show that people will consistently rate professors more highly when they lecture. People will also say that they learned more. Studies show that lectures are one of the least effective ways for people to learn new facts. The reality is, we just **really** suck at knowing what makes us effective learners. Our brains are kinda silly mush buckets. For example, doing something as simple as fuzzing the text on a document will make you more likely to learn content because it was harder to retrieve and therefor your personal mushbucket assumed that meant it was more important.
 
 Does this mean we should go ahead and make all meetings miserable? F\*\*\* no. But if you really care about how effective a meeting is (especially a recurring one), you need to do the product thing you do with everything else and assign metrics to it and use dispassionate analysis to make that decision, and not ask your engineers if they’d be rather coding than talking to other people.
 
-2. As much as humans (especially engineers) hate meetings, they do really like being around other people
+### As much as humans (especially engineers) hate meetings, they do really like being around other people
 
 So the meeting success rate (from a positive/negative review) will have more to do if people feel like they enjoyed being around the other people, and if the people they care about said useful things or if they got to say useful things to those people. Neither of these are really markers of the success of your meeting.
 
-3. Meeting feedback has more to do with how it worked within the rest of a person's week than it has to do with the meeting itself
+### Meeting feedback has more to do with how it worked within the rest of a person's week than it has to do with the meeting itself
 
 What I mean by this is a poorly run meeting on a Friday when people are already checked out is going to get reviewed way more highly than a really well run meeting in the middle of a Wednesday when people are stressed about their week.
 
@@ -43,12 +43,12 @@ All that being said, you should absolutely try really hard run good meetings. Th
 
 Here's the list of things we're going to walk through today
 
-- Be explicit about what participation looks like
-- Meetings should have a point (and culture meetings work so many times)
-- Your subject matter should be specific
-- Keep control of your meeting
-- Use status on a team and within an organization effectively
-- Restate takeaways liberally
+1. Be explicit about what participation looks like
+2. Meetings should have a point (and culture meetings work only so many times)
+3. Your subject matter should be specific
+4. Keep control of your meeting
+5. Use status on a team and within an organization effectively
+6. Restate takeaways liberally
 
 You'll notice a lot of these mean that you as the meeting facilitator will need to take a lot of proactive action to keep your meeting in line, potentially putting you in (gentle but) direct disagreement with the people around you. This might make you uncomfortable (it definitely makes me uncomfortable occasionally), but it's important to remember with all of this, these rules aren't there to make you look good, they're there to ensure the success of the meeting for all its participants.
 
