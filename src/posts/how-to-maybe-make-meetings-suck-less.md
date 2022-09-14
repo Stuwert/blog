@@ -11,7 +11,10 @@ Something that's come as a surprise to me, I've collected a bit of a reputation 
 
 Running a successful meeting feels great. I thought that I would try to put together some ideas about how to make your meetings more successful. One of the biggest misconceptions I see is that a successful meeting means following a set list of items. Stuff like creating an agenda, setting time limits, taking notes.
 
-These are necessary, but not sufficient, components to meeting leadership. Meeting leadership is a skill that requires practice. Here are some techniques worth considering:
+These are necessary, but not sufficient, components to meeting leadership. Meeting leadership is a skill that requires practice.
+
+![image](/images/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg)
+_You too can be as successful as this obligatory stock meeting image_
 
 ## Before We Begin, a Huge Caveat
 

@@ -1,6 +1,6 @@
 ---
 title: Your Pit of Success Needs to be close enough to fall into
-date: 2022-09-12
+date: 2022-09-14
 tags: ["engineering", "system design", "quick thought"]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
 permalink: posts/{{ title | slugify }}/index.html
