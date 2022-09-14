@@ -1,10 +1,10 @@
 ---
 title: Your Pit of Success Needs to be close enough to fall into
 date: 2022-09-12
-tags: ["engineering", "system design"]
+tags: ["engineering", "system design", "quick thought"]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
 permalink: posts/{{ title | slugify }}/index.html
-status: draft
+status: published
 ---
 
 We've gotten to the point in software engineering where the concept of a [pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/) is mostly taken for granted. It's great that framework and system designers are showing the desire (and sometimes wherewithal) to make systems that users fail into success.
