@@ -5,9 +5,13 @@ tags: ["engineering", "system design", "quick thought"]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
+socialImage: /images/ian-chen-wrrgZwI7qOY-unsplash.jpg
 ---
 
 We've gotten to the point in software engineering where the concept of a [pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/) is mostly taken for granted. It's great that framework and system designers are showing the desire (and sometimes wherewithal) to make systems that users fail into success.
+
+![image](/images/ian-chen-wrrgZwI7qOY-unsplash.jpg)
+_This pit of success can be yours for the low low price of..._
 
 Dan Abramov made a great addendum to this in [Optimized for Change](https://overreacted.io/optimized-for-change/). When you design an API it's not good enough for you to make a system that's good now. Your system has to be good through time as well. Well, I'd like to propose a 0th order concern you'd have.
 
