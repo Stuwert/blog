@@ -81,13 +81,28 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("status", (posts, status) => {
-    console.log(status);
     return posts.filter((post) => {
       if (post.data.status === undefined) return false;
 
-      console.log(post.data.status);
-
       return post.data.status.toLowerCase() === status;
+    });
+  });
+
+  console.log("test");
+
+  eleventyConfig.addFilter("filterTags", (posts, tagsToInclude) => {
+    console.log({ tagsToInclude });
+    return posts.filter((post) => {
+      const { tags } = post.data;
+      if (tags === undefined) return false;
+
+      const hasTag = tags.find((tag) => {
+        console.log({ tag });
+        return tagsToInclude.includes(tag);
+      });
+      console.log({ tags, matches: hasTag !== undefined });
+
+      return hasTag !== undefined;
     });
   });
 
