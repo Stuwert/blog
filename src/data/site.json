@@ -10,6 +10,10 @@
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
     {
+      "text": "Serverless Deep Dive",
+      "url": "/serverless"
+    },
+    {
       "text": "Blog",
       "url": "/blog",
       "external": false

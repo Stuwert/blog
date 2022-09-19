@@ -2,9 +2,11 @@
 layout: base
 ---
 
+<h2>{{title}}</h2>
+
 {{ content | safe }}
 
-{% set sectionPosts = collections.posts | filterTags(tagsToInclude) %}
+{% set sectionPosts = collections.posts | status('published') | filterTags(tagsToInclude) %}
 
 <ul class="post-list">
   {% for post in sectionPosts %}
@@ -24,8 +26,6 @@ layout: base
           <span>{{ post.data.description}}</span>
         </div>
       </div>
-
-      <a class="post-list__read-more" href="{{ post.url }}">read article</a>
     </li>
   {% endfor %}
 </ul>
