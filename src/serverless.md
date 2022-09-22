@@ -23,4 +23,4 @@ Here is a collection of each step I took, trying to understand and recreate what
 - Understand what the cost drivers are of each of these and how I can monitor cost on my own?
 - How do I put things in a CI system easily?
 
-\*I know there are easy ways to google these answers. I want to understand how to
+\*I know there are easy ways to google these answers. I want to understand how to build them

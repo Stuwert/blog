@@ -2,6 +2,10 @@
 layout: base
 ---
 
+{{ content | safe }}
+
+{% set postslist = collections.posts | status('draft') %}
+
 <ul class="post-list">
   {% for post in postslist | reverse %}
     <li class="post-list__item">
