@@ -1,5 +1,5 @@
 ---
-title: Don't Build a Bit, Outfit Your Explorers
+title: Don't Build a Pit, Outfit Your Explorers
 date: 2022-09-14
 tags: ["engineering", "system design", "quick thought"]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
