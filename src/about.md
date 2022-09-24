@@ -7,6 +7,8 @@ name: Stuart Urback
 
 Hi I'm Stuart.
 
-I've been in technology (as a software engineer or project manager) for about 10 years now.
+I'm currently a Senior Engineer for [Guild Education](https://guildeducation.com), but I've been in technology (as a software engineer or project manager) for about 10 years now.
 
-This blog will contain a host of writing from things as specific as how to debug the `datasource` file when trying to implement Typeorm to things as broad as general tech tips and advice, or things outside of engineering like games and general media.
+I have a lot of thoughts, mostly about tech and leadership, but I also love writing about games. This probably means there will be an eclectic mix of stuff that you find somewhat relevant and completely irrelevant.
+
+My goal is to be sincere, contrarian, modestly sarcastic but not in that obnoxious way where I'm trying to sell you something.

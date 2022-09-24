@@ -41,6 +41,7 @@
     "generate:post": ""
   },
   "dependencies": {
+    "dotenv": "^16.0.2",
     "remove": "^0.1.5"
   }
 }

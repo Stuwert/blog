@@ -54,9 +54,11 @@
       <script>mermaid.initialize({startOnLoad:true});</script>
     {# Add mermaid -- end #}
   
-    <!-- Fathom - beautiful, simple website analytics -->
-    <script src="https://cdn.usefathom.com/script.js" data-site="YNWWFIKO" defer></script>
-    <!-- / Fathom -->
+    {% if site.isProdEnvironment %}
+      <!-- Fathom - beautiful, simple website analytics -->
+      <script src="https://cdn.usefathom.com/script.js" data-site="YNWWFIKO" defer></script>
+      <!-- / Fathom -->
+    {% endif %}
   </head>
   <body>
     <div class="layout-wrapper">
