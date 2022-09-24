@@ -54,7 +54,7 @@
       <script>mermaid.initialize({startOnLoad:true});</script>
     {# Add mermaid -- end #}
   
-    {% if site.isProdEnvironment %}
+    {% if not site.isDevEnvironment %}
       <!-- Fathom - beautiful, simple website analytics -->
       <script src="https://cdn.usefathom.com/script.js" data-site="YNWWFIKO" defer></script>
       <!-- / Fathom -->

@@ -1,8 +1,5 @@
 require("dotenv").config();
 
-console.log("***");
-console.log({ isDevEnvironment: process.env.IS_DEV_ENVIRONMENT });
-
 module.exports = {
   name: "Stuart Urback",
   description: "The hosting spot for my ",
@@ -53,7 +50,6 @@ module.exports = {
     },
   ],
   showFooterAttribution: true,
-  isProdEnvironment:
-    !process.env.IS_DEV_ENVIRONMENT ||
-    process.env.IS_DEV_ENVIRONMENT === "false",
+  isDevEnvironment:
+    process.env.IS_DEV_ENVIRONMENT && process.env.IS_DEV_ENVIRONMENT === "true",
 };
