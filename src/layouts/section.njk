@@ -17,12 +17,6 @@ layout: base
       </h3>
       <div>
         <div class="post-list__meta">
-          <time datetime="{{ post.date | htmlDateString }}">
-            {{ post.date | readableDate }}
-          </time>
-          <span> | </span>
-          <span>{{ post | readingTime }} read</span>
-          <span> | </span>
           <span>{{ post.data.description}}</span>
         </div>
       </div>
