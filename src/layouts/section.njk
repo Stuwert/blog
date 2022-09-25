@@ -11,14 +11,11 @@ layout: base
 <ul class="post-list">
   {% for post in sectionPosts %}
     <li class="post-list__item">
-
       <h3 class="post-list__title">
         <a  href="{{ post.url }}">{{ post.data.title }}</a>
       </h3>
-      <div>
-        <div class="post-list__meta">
-          <span>{{ post.data.description}}</span>
-        </div>
+      <div class="post-list__meta">
+        <span>{{ post.data.description}}</span>
       </div>
     </li>
   {% endfor %}

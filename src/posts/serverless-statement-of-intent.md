@@ -64,6 +64,8 @@ I plan to follow [Jessica Kerr’s](https://jessitron.com/) advice to [keep proj
 
 I'll be using AWS as the service provider, assuming many of the concepts will be transferrable, and I will lean into [free and cheap sources](https://aws.amazon.com/free/) wherever possible. This might mean some concepts (like a postgres database) go by the wayside in the effort to keep control of costs.
 
+I'll be building using Typescript and Node because that's where I'm most comfortable. I want to focus on system building not language learning.
+
 ### Let’s Go
 
 And with that, we’re off. Time to go learn how to lambda.
