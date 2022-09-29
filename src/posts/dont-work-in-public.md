@@ -4,13 +4,13 @@ date: 2022-09-28
 tags: [engineering, junior engineer]
 description: Discussing some of the pros and cons to creating a public portfolio of writing and coding.
 permalink: posts/{{ title | slugify }}/index.html
-status: draft
+status: published
 socialImage: /images/markus-spiske-9_YLGPWd28Y-unsplash.jpg
 ---
 
 ## Do You Need To “Work in Public”?
 
-There’s a lot of information floating around about the benefits to “work in public”, to keep a public record of the code you write and your thoughts to share it with the world. It can also mean working on a project with a publicly accessible repo, like an open-source project, or a project that other people can access.
+As a follow up to a [previous post](https://www.urback.net/posts/maybe-don-t-try-to-do-everything-immediately/) about what to do next as a junior out of bootcamp, I got asked the question about the value of "working in public". There’s a lot of information floating around about the benefits to “work in public”, to keep a public record of the code you write and your thoughts to share it with the world. It can also mean working on a project with a publicly accessible repo, like an open-source project, or a project that other people can access.
 
 ![image](/images/markus-spiske-9_YLGPWd28Y-unsplash.jpg)
 _The "internet audience"_
@@ -121,9 +121,9 @@ In my opinion, brag documents are one of the highest leverage things you can do 
 
 Once you get in a job, one of the best things you can do is to cultivate an internal network of people who you would like to stay in touch with over time. This doesn’t mean being weird or conniving. All you need to do is if there’s someone you work with who you find interesting or inspiring, find some time to grab coffee or lunch with them, and make a connection. Become friends. These are the people who will vouch for you, refer you, and help you find your next opportunity. (And you for them)
 
-Having a group of people who believe in me (and who I believe in), has helped open up potential job opportunities and given me perspective on what decisions I might make in the future. It’s very private work (and honestly people are fun to be around, so stay in touch with the ones you like!) but it’s been a huge boost to my career.
+Having a group of people who believe in me (and who I believe in), has helped open up potential job opportunities and given me perspective on what decisions I might make in the future. It’s very private work (and honestly people are fun to be around, so stay in touch with the ones you like!) but it’s been a huge boost to my career. And for people who are just out of bootcamp, your bootcamp-mates and your teachers can serve as the same sort of network. Keep in touch with them!
 
-And for people who are just out of bootcamp, your bootcamp-mates and your teachers can serve as the same sort of network. Keep in touch with them!
+This isn't to say it's easy. Of all of the recommendations I'm making here, it's probably the hardest one. I have a set-up on my task list where every 2-3 months I'll get reminded to reach out for coffee/lunch. And I still feel overwhelmed and uncertain when that task comes around. But for the effort of coordination and keeping up, it's the career benefit and the intrinsic value of being connected to people I enjoy, appreciate, and learn from that makes it worth it.
 
 ## When To Work In Public
 
