@@ -88,19 +88,14 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  console.log("test");
-
   eleventyConfig.addFilter("filterTags", (posts, tagsToInclude) => {
-    console.log({ tagsToInclude });
     return posts.filter((post) => {
       const { tags } = post.data;
       if (tags === undefined) return false;
 
       const hasTag = tags.find((tag) => {
-        console.log({ tag });
         return tagsToInclude.includes(tag);
       });
-      console.log({ tags, matches: hasTag !== undefined });
 
       return hasTag !== undefined;
     });

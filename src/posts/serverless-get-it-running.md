@@ -7,11 +7,7 @@ permalink: posts/{{ title | slugify }}/index.html
 status: published
 ---
 
-## How Do I Start a Project and Run Code Locally?
-
-So, my first thought here is… how can I start a server locally that I can build on top of, but that server is actually a single repo that’s a group of lambdas.
-
-The first step here is starting a repo. Let’s get something booted up and figure out how to make it work.
+The first step in my journey to [recreate an old server of mine](https://github.com/play-this-tonight/games-api) in lambdas starts with getting a local development environment functioning.
 
 I’m picking the [serverless](https://serverless.com) package because I’ve taken the [Serverless Course](https://frontendmasters.com/courses/serverless-aws/) and found it the most easy to deal with.
 
