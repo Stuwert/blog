@@ -5,6 +5,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const fs = require("fs");
 const path = require("path");
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 
 const isDev = process.env.ELEVENTY_ENV === "development";
 const isProd = process.env.ELEVENTY_ENV === "production";
@@ -27,6 +29,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  const markdownItOptions = {
+    html: true,
+  };
+
+  // Options for the `markdown-it-anchor` library
+  const markdownItAnchorOptions = {
+    permalink: true,
+    level: [1, 2],
+  };
+
+  const markdownLib = markdownIt(markdownItOptions).use(
+    markdownItAnchor,
+    markdownItAnchorOptions
+  );
+
+  eleventyConfig.setLibrary("md", markdownLib);
 
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;
@@ -82,6 +101,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("status", (posts, status) => {
     return posts.filter((post) => {
+      if (post.data.hidden && post.data.hidden === true) return false; // always hide hidden posts
       if (post.data.status === undefined) return false;
 
       return post.data.status.toLowerCase() === status;
