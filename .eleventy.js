@@ -94,7 +94,7 @@ module.exports = function (eleventyConfig) {
 
     const listItems = content.match(/<ul>(?<content>[\s\S]*)<\/ul>/);
 
-    return content;
+    return listItems.group.content;
   });
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
@@ -106,7 +106,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("head", (array, n) => {
+    console.log(array.length);
     if (n < 0) {
+      console.log(array.slice(n).length);
       return array.slice(n);
     }
 
