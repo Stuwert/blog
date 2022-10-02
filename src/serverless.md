@@ -6,6 +6,24 @@ tagsToInclude: ["serverless"]
 
 Watch me go from novice to... slightly less novice.
 
+As I answer each question, it'll show up in the below list as a link with a reading time. As I learn more stuff, more links should show up and fewer questions should appear.
+
+### Serverless Questions
+
 ---
 
-Here is a collection of each step I took, trying to understand and recreate what I know about servers, but in the serverless world.
+- What does “Deployment” mean?
+- How many functions fit in a single lambda? How many functions belong in multiple repos?
+- Does everything live in a single repo or many repos?
+- Do I go into AWS to create an S3 bucket? Or put it in my repo? (Ditto for databases, etc.)
+- How do Events work?
+- What's an AppSync?
+- What is a step function?
+- How does API Gateway get configured?
+- How do I operate DynamoDb effectively?
+- How do I implement Auth as a middleware?
+- Can I easily use websockets with this?
+- Understand what the cost drivers are of each of these and how I can monitor cost on my own?
+- How do I put things in a CI system?
+- What's the best way to run a mono-repo?
+- How do I create a template for re-use?

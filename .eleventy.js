@@ -83,6 +83,20 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter("split", (content, idx) => {
+    const splitContent = content.split("<hr>");
+
+    return splitContent[idx];
+  });
+
+  eleventyConfig.addFilter("getUnorderedListContent", (content) => {
+    if (!content) return content;
+
+    const listItems = content.match(/<ul>(?<content>[\s\S]*)<\/ul>/);
+
+    return content;
+  });
+
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });

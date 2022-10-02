@@ -2,7 +2,7 @@
 title: Four Looks at Serverless
 date: 2022-10-01
 tags: [engineering, serverless]
-description: In which I compare and contrast the various ways on developer can instrument and run a lambda locally.
+description: What's the difference between the all of the serverless frameworks?
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/serverless/four-options.png
