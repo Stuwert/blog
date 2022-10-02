@@ -9,7 +9,7 @@ hidden: true
 
 ### Repo
 
-https://github.com/Stuwert/cipher-serverless/tree/local-sam
+[https://github.com/Stuwert/cipher-serverless/tree/local-sam](https://github.com/Stuwert/cipher-serverless/tree/local-sam)
 
 ### Initialization
 
