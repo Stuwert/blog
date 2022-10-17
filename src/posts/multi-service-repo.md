@@ -5,6 +5,7 @@ tags: [engineering, serverless]
 description: How do I deploy multiple services from a single repository?
 permalink: posts/{{ title | slugify }}/index.html
 status: published
+socialImage: /images/serverless/cloudformation-deploy.png
 ---
 
 Turning a monolith into a grouping of lambdas probably means deploying multiple lambdas to handle a variety of different functions into AWS. This got me thinking about multi-service deployment and what gets called a mono repo. A mono repo, as I understand it, is a combination of services that live side by side within a single repository, often relying on similar sets of requirements across the list. A mono repo pattern allows lambdas to live together (so you don’t have to have a repo per lambda) for easier development and manipulation. Admittedly, this was something of a naive question, as I know about things like [“Yarn Workspaces”](https://classic.yarnpkg.com/lang/en/docs/workspaces/) but I didn’t know what they meant in practice or how people end up using them.
