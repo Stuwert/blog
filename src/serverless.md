@@ -19,11 +19,14 @@ As I answer each question, it'll show up in the below list as a link with a read
 - How do Events work?
 - What's an AppSync?
 - What is a step function?
-- How does API Gateway get configured?
+- ~~How does API Gateway get configured?~~ The answer to this can be found in my [Get It Running Locally](/posts/how-do-i-get-a-serverless-function-running-locally) post
 - How do I operate DynamoDb effectively?
 - How do I implement Auth as a middleware?
-- Can I easily use websockets with this?
+- Can I easily use websockets?
 - Understand what the cost drivers are of each of these and how I can monitor cost on my own?
 - How do I put things in a CI system?
 - What's the best way to run a mono-repo?
 - How do I create a template for re-use?
+- How do I name or create different environments with Serverless?
+- How can I automatically recompile shared dependencies in a shared package?
+- What is Architect and STS?
