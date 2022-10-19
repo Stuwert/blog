@@ -54,17 +54,11 @@ Basically, one of the biggest differences between being a leader and being an in
 
 ## 3. Transparency Starts from Leadership, Not From Those Being Lead
 
-Finally, “best intent” heads off a number of conversations about transparency that are necessary to develop and maintain trust.
+Finally, “best intent” heads off a number of conversations about transparency that are necessary to develop and maintain trust. “Best Intent” comes from a place of necessary opacity. Basically, at some point you and your teammates are working on stuff at such a pace that constant communication is impossible. If you don’t understand **why something happened** you need to make a decision on whether or not to ask, “best intent” changes the number of things that might make you pause and ask for clarification.
 
-I just fundamentally don’t believe there’s ever a reason why someone who’s expected to “do the work” should be wrong when asking the question “why the fuck are we doing this”, or shouldn’t be listened to when they say “this seems stupid”.
+But transparency is the beating heart of good leadership. Being the person that “catches all of the shit” doesn’t actually make you a better leader. At best it might lead to your team being in a [values oasis](https://lethain.com/values-oasis/), and at worst it might mean you are withholding vital information from the people who are actually doing the work.
 
-This isn’t to say you need to reorient your entire strategy to satisfy them. Hardly. It is to say that they are expressing a very real concern that stems from likely an entirely different viewpoint of the world, informed, in part, by the fact that they don’t share the context or the benefits that you do from the decisions that are being made.
-
-Maybe you got promoted as a result of your buy-in to a new company strategy. Bully for you! That doesn’t mean that someone else’s decision not to buy-in was any less valid, it means it was informed by a different set of priorities and it’s your job (to the extent that’s valuable) to suss them out and help that other person come along for the ride.
-
-- It’s leaderships responsibility to both make their actions transparent and also follow up to understand if you’re actually reading their actions that way
-- Leaders should be held to a higher standard of behavior when it comes to failure or less than ideal results
-- Levels makes that entire framing completely unhelpful
+Sometimes, as a leader, you might need to say “just trust me on this”. But in those cases, you should quickly follow up after the results explaining the why and the how of the situation. Those closed loops are what build the lasting relationship between leaders and contributors.
 
 ## Escaping Best Intent Scenarios
 
