@@ -27,7 +27,7 @@ layout: base.njk
     </div>
 
     <nav class="post__pagination">
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {%- set nextPost = collections.posts | status('published') | getNextCollectionItem(page) %}
       {%- if nextPost %}
 
         <a href="{{ nextPost.url | url }}">
