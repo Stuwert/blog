@@ -21,11 +21,15 @@ Beyond the general problems with “assumption of best intent”, there are spec
 
 I’m going to come at this from the perspective that this is a mostly functional organization, and not one where leaders are actively trying to take advantage of the people they’re leading. I think the request for “best intent” comes from a very sincere (and sometimes vulnerable) place. Leaders recognize their flaws and are asking for patience and understanding from the people they are responsible for.
 
+I think it also comes from a place of reassurance. They want people to know that while things might be bad now, they're bad because of thoughtfulness which will hopefully change in the future. This is another area where "show not tell" is important. Company priorities change all the time, which can have detrimental effects on people in other departments. Starting with "we're being thoughtful about this" doesn't actually suggest you're thinking about and responding to the needs of the people who you're talking through it with.
+
 While facially this seems reasonable, it hides a framing that misses the entire relationship of power structures between the two people. Leaders, especially ones who believe in supportive or servant leadership, often fail to see the very real power differences in one on one conversations. These conversations can feel more like chats between peers and not commands (and it’s the type of thing that tech orgs with flat structures like to reinforce). But the power structure remains and it’s important (and worthwhile) as a leader to make that power differential apparent. It puts the conversation between you as a leader, and the person you’re conversing with on the most equal footing.
 
-### What I’m Not Saying
+### Intent is "Table Stakes"
 
 My goal here isn’t to argue that you should assume worst intent, far from it. It’s more to say that when leaders are asking for forgiveness, understanding, or a retry from negative outcomes, they have to recognize that the framing around their process and their results is entirely different than it might be for someone else.
+
+Rather, I'm saying that, if you want to be a good leader, best intent is where you should start, not a valuable question to introspect how well you're accomplishing your job.
 
 ### 1. Your Bad Outcome Might Be Their Good Outcome
 
@@ -69,12 +73,15 @@ In this situation there are basically three outcomes you can assume:
 
 Now, you might say this sort of framing creates a sort of transactional relationship between leaders and contributors, if contributors or only judging leaders on their actions.
 
-My intent here isn’t to create a sort of grading system where contributors only view leadership behavior as to whether or not it is good or bad for them. This is specifically a response to what sorts of expectations leader should make in “mistakes were made” situations. As contributors we all sort of know that not everything is going to go our way. And we can judge our leaders’ impact based on the sum of decisions they’ve made (which transparency helps us do!).
+I'm not saying we should create a sort of grading system where contributors only view leadership behavior as to whether or not it is good or bad for them. This is specifically a response to what sorts of expectations leader should make in “mistakes were made” situations. As contributors we all sort of know that not everything is going to go our way. And we can judge our leaders’ impact based on the sum of decisions they’ve made (which transparency helps us do!).
 
 But there are some behaviors when stuff goes wrong, or in situations where you can’t actually give full transparency about the situation. There are some motions I would probably make in this situation to help your contributors understand what’s going on:
 
 - Share with them the limits of your power, knowledge or responsibility
 - Share with them the tradeoffs you’re trying to manage, and explain why there are tradeoffs from your perspective
 - Share with them your actual emotions, don’t try to hide behind positivity. If things suck right now, that’s ok. But if you believe they won’t suck tomorrow, explain that too.
+- Be honest about bad outcomes
 
 No one wants to look like an idiot in front of the people they lead. I think this often prevents us from being honest about the limitations of our perspective. But these are situations where we under-appreciate the protections that our status as leaders give us. People will be more predisposed to believe our viewpoints, be less able to to take action against us, and will generally default to the trust we seek, as long as we are sharing information appropriately.
+
+Be honest about bad outcomes. No one likes them but people will tend to be understanding when those have to happen. Build a clear vision around why priorities have changed and when they can be expected to change. Don't try to back into a set of bad changes by saying they're actually "good changes".
