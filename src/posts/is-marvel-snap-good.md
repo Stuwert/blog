@@ -13,6 +13,10 @@ I had an entirely different article locked and loaded about _Marvel Snap_, talki
 
 If you want to read about the cleverness of _Marvel Snap,_ you can find the commentary [here](http://click.revue.email/ss/c/OvZMTmFNG_ogo9mVNMFA313_KFs4moEO0cRfD-n5wwyyp8Mt1SK09UETAz3wMECzV-3LgxXDqvdcudhgs3GtBltRTgeSG1LiQdt-J2kTpXILM4uYy6unSCjA8U6ibZnPZecFBnZIrnNEPesSnaGqGgoY-N4lFaGQVn2xGgK10SbCJpLJi0MBDaMQuxPH4-GhvrHIpHXiAHNUDI58Pmw3qSrgWG5C_AMpK6WUad9ieS4/3re/noRJ_lWZRka-MRZM6w7uCA/h6/BfJBIbsJwQIbuALiiYVoAJKl2GbFeGSkfs7rjPvF1hw), [here](https://www.getrevue.co/profile/gengelstein/issues/gametek-19-design-lessons-of-marvel-snap-1228832?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=GameTek+-+The+Math+and+Science+of+Gaming), and [here](https://www.polygon.com/23440869/marvel-snap-tutorial-card-game). I’m also going to be talking about games like _Magic: The Gathering_ and _Storybook Brawl_, so I make some assumptions on my part about comfort with concepts like auto-battlers and trading card games.
 
+## What Is It?
+
+_Marvel Snap_, [released globally this October](https://www.marvelsnap.com/howtoplay), is a head to head card game where players battle by playing cards in one of three lanes. At the end of six rounds, players sum up the power of cards they have in each lane. Whoever has more power in a lane wins the lane, and whoever wins 2 lanes wins the game. The twist of the game comes from the fact that each lane has random powers that change how the game is played, and each card players play introduces new twists, like moving between lanes, pulling other cards from their deck, and such. Players build a deck of 12 cards to take with them into battle. But the real twist of the game as it were, is the betting mechanic. Each game, at any point (until the end) players can choose to double the value of the game (the amount they will rise or fall in the ranks).
+
 ## The Response
 
 Most of the response to _Marvel Snap_ has been broadly in one of two (very different sized) camps.
@@ -34,7 +38,7 @@ Furthermore, I don’t believe that there’s anything particularly deceptive ab
 
 Higher skill players will be able to more efficiently collect cubes than lower skill players. That’s the skill of the game. It cleverly pushes the skill out of an individual match (so players of wildly variant skill levels can have fun) and into the meta structure of your ability to glean expected value from the game.
 
-### Ok, but so what
+### Ok, but so what?
 
 This gets me to my next point, point one. Most of the effusive comments of the design space around this game seems to focus on how cleverly it solves a variety of problems that have plagued trading card games since time immemorial. It amps up the randomness and so keeps players engaged across a variety of skill levels, it introduces a betting mechanism to reward high skill play, it even fixes mulligans for chrissakes.
 
