@@ -30,3 +30,5 @@ As I answer each question, it'll show up in the below list as a link with a read
 - How do I name or create different environments with Serverless?
 - How can I automatically recompile shared dependencies in a shared package?
 - What is Architect and STS?
+- How do I construct a Step Function?
+- Can I orchestrate a series of Serverless Templates?

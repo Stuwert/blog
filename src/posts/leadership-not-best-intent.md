@@ -5,7 +5,7 @@ tags: [leadership, responsibility]
 description: I have high expectations for people in positions of power and people with status. Let's talk about it
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-defaultsSocialImage: /images/serverless/jeshoots-com-fzOITuS1DIQ-unsplash.jpg
+socialImage: /images/serverless/jeshoots-com-fzOITuS1DIQ-unsplash.jpg
 ---
 
 Picking this one up from the draft bin and seeing that I originally had this drafted last October. Well, it's the new year now, and I think the new year is a good time to level set where I stand with my beliefs. This is a bit of a tongue-in-cheek analysis of my strongest (and most bullheaded) beliefs about the responsibility of people who would call themselves leaders.
