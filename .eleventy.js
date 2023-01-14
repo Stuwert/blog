@@ -37,7 +37,7 @@ module.exports = function (eleventyConfig) {
   // Options for the `markdown-it-anchor` library
   const markdownItAnchorOptions = {
     permalink: true,
-    level: [1, 2],
+    level: [2, 3],
   };
 
   const markdownLib = markdownIt(markdownItOptions).use(

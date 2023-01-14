@@ -22,11 +22,11 @@ _someone who is a very important software developer but tries to stay humble_
 
 One of the reasons I wanted to write this is to document my early thoughts before too many of my opinions become ossified by the interactions I have with other people.
 
-- [Everyone has a different vision for staff engineering](#everyone-has-a-different-vision-for-staff-engineering)
-- [Code and Culture](#code-and-culture)
-- [Getting Here and Going There](#getting-here-and-going-there)
-- [My Theory about Wealthy People](#my-theory-about-wealthy-people)
-- [First "Bullshit" Role](#first-bullshit-role)
+- Everyone has a different vision for staff engineering
+- Code and Culture
+- Getting Here and Going There
+- My Theory about Wealthy People
+- First "Bullshit" Role
 
 ### Everyone has a different vision for staff engineering
 
