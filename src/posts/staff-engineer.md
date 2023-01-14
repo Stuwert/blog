@@ -13,11 +13,6 @@ socialImage: /images/DALL·E-humble-engineer.png
 I was promoted into the Staff Engineering role last October (2022). Coming into it I've read a small portion of the few books that exist related to staff engineering, specifically
 [Staff Engineering](https://staffeng.com/book) by Will Larson and [The Staff Engineer's Path](https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/) by Tanya Reilly. I've also been really enjoying a [couple of articles](https://jkebertz.medium.com/why-its-so-hard-to-become-a-staff-engineer-c4b94864a373) by Joy Ebertz on the topic.
 
-The DALL-E Prompt for this was:
-_someone who is a very important software developer but tries to stay humble_
-
-![Image with a White Male Developer wearing a red hoodie with indecipherable text](/images/DALL·E-humble-engineer.png)
-
 ### My Initial Thoughts
 
 One of the reasons I wanted to write this is to document my early thoughts before too many of my opinions become ossified by the interactions I have with other people.
@@ -27,6 +22,11 @@ One of the reasons I wanted to write this is to document my early thoughts befor
 - Getting Here and Going There
 - My Theory about Wealthy People
 - First "Bullshit" Role
+
+![Image with a White Male Developer wearing a red hoodie with indecipherable text](/images/DALL·E-humble-engineer.png)
+
+The DALL-E Prompt for this was:
+_someone who is a very important software developer but tries to stay humble_
 
 ### Everyone has a different vision for staff engineering
 
