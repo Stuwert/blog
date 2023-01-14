@@ -32,3 +32,4 @@ As I answer each question, it'll show up in the below list as a link with a read
 - What is Architect and STS?
 - How do I construct a Step Function?
 - Can I orchestrate a series of Serverless Templates?
+- What is AWS SAM sync?
