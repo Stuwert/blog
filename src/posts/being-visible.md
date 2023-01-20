@@ -5,7 +5,7 @@ tags: [engineering, staff engineering, personal growth]
 description: The benefits of being visible to the people who you're leading
 permalink: posts/{{ title | slugify }}/index.html
 status: draft
-# socialImage: /images/DALL·E-humble-engineer.png
+socialImage: /images/DALL-E-hippo-in-grass.png
 ---
 
 ## Being Visible to the People You Lead
@@ -33,6 +33,10 @@ What’s probably more accurately described as weird, instead of bullshit, is th
 This is the exciting and terrifying thing about staff+ roles. You are fully in charge, and can exceed or fall back to the level you feel comfortable. The constraints can be less about practical outcomes so much as they are about your ability to tell a good story and your desire to see impact.
 
 It’s hard to manage this visibility, and this challenge as a thoughtful tech leader (which I aspire to be though I suspect I fail at quite regularly). We value the contributions of our team members, we view them as our equals, and we don’t want to put ourselves above them. The difference between being open and transparent and flaying your emotions out at the people whose careers you impact can feel awfully thin.
+
+_The DALL-E prompt for this was a cartoon hippo in the middle of tall grass with onlookers from a 3/4 bird's eye view._
+
+![A hippo in the grass with three people looking onward](/images/DALL-E-hippo-in-grass.png)
 
 ### What is Being Visible?
 
