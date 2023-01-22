@@ -2,7 +2,7 @@
 title: Being Visible to the People You Lead
 date: 2023-01-20
 tags: [engineering, staff engineering, personal growth]
-description: The benefits of being visible to the people who you're leading
+description: The challenges and benefits of proactively showcasing your work to the people you lead, in addition to the people who manage you.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL-E-hippo-in-grass.png
@@ -10,29 +10,13 @@ socialImage: /images/DALL-E-hippo-in-grass.png
 
 ## Being Visible to the People You Lead
 
-In my last post, I aggressively (and somewhat sarcastically) referenced Staff+ engineering being “[:bullshit](https://www.urback.net/posts/becoming-a-staff-engineer/#FirstBullshitRole)”. I’d like to clarify what I mean by that here. I’m concerned that the term might imply that most people in leadership roles don’t try, or that I’ve worked at companies with swaths of incompetent people. Rather, I want to note that there are fewer practical constraints to guide and constrain ICs and managers in leadership roles. You get to make your own rules, and be judged by people for making up your own rules. It’s a lot to adjust to.
+There’s a lot of discussion about how as an individual contributor it’s important to “make your work visible” to higher ups to get the appropriate resources, opportunities for advancement, etc. But there is relatively little discussion going the other direction about being a leader and making your work visible to the people whom you lead. I think there's just as much value to thinking about and framing your work for the people lower in level as there is to higher ups.
 
-There’s a lot of discussion about how as an individual contributor it’s important to “make your work visible” to higher ups to get the appropriate resources, opportunities for advancement, etc. But there is relatively little discussion going the other direction about being a leader and making your work visible to the people whom you lead.
+In my last post, I aggressively (and somewhat sarcastically) referenced Staff+ engineering being “[:bullshit](https://www.urback.net/posts/becoming-a-staff-engineer/#FirstBullshitRole)”. I don't mean that that most people in leadership roles don’t try, or that I’ve worked at companies with swaths of incompetent people. Rather, I want to note that there are fewer practical constraints to guide and constrain ICs and managers in leadership roles. You get to make your own rules, and be judged by people for making up your own rules.
 
-The line between doing something that’s incredibly self-serving, and something that’s incredibly beneficial for your team can be nebulous and is often the result of a personal judgment call.
+The combination of both coming up with the rules, and judging yourself on them can make it easy for people from the outside (especially people at a lower level) to think all of that stuff is made up or "bs". And the line between doing something that’s incredibly self-serving, and something that’s incredibly beneficial for your team can be nebulous and is often the result of a personal judgment call.
 
-To pull out a hypothetical, let’s say I, as a staff engineer, work on a team struggling to deliver a particular project. I have a few options. I can:
-
-1. Note that there’s an issue, but stay out of resolution determination with the team
-2. Communicate resolution steps to the team, but not take part in resolving the failures
-3. Communicate with the team and take an active role in making the project a success
-
-In various points each of these outcomes could be **the exactly right thing to do for the team**, it’s also possible that #1 could be a complete copout that sells the team short for my failings. It’s also possible that #3 could mean I end up overshadowing the team. Maybe we feel great that we launched, but there’s resentment that now people outside the team see the project as mine instead of the team’s or the other project leads.
-
-In other roles, there’s more direct guidance on the sorts of actions I should take. But in the Staff+, and other leadership, role's that determination is solely up to me, depending on how I feel about the situation and what, I think, would be best. And as always, the easiest person to fool is yourself. So, it would be so easy to make the wrong decision, explain away the outcome, and then pat myself on the back for a job well done.
-
-From my perspective, good leadership requires a constant sort of vigilance in terms of reflection and understanding of my behavior. Even **asking for feedback from the people impacted** won’t necessarily be a good barometer. People could be happy I jumped in and fail to see the negative externality I just caused on their career. Or, people could be unhappy I didn’t jump in, but fail to see the way the career growth and positive feedback they got for their response to the challenge improved their careers.
-
-**Note: This isn’t to say that you shouldn’t ask for feedback. It’s to say that the feedback is non-determinative in a way that it’s not in other roles.**
-
-This is the exciting and terrifying thing about staff+ roles. You are fully in charge, and can exceed or fall back to the level you feel comfortable. The constraints can be less about practical outcomes so much as they are about your ability to tell a good story and your desire to see impact.
-
-It’s hard to manage this visibility, and this challenge as a thoughtful tech leader (which I aspire to be, though I suspect I fail at quite regularly). We value the contributions of our team members, we view them as our equals, and we don’t want to put ourselves above them. The difference between being open and transparent and flaying your emotions out at the people whose careers you impact can feel awfully thin.
+In other roles, there’s more direct guidance on the sorts of actions I could take. But in the Staff+, and other leadership, role's that determination is solely up to me, depending on how I feel about the situation and what, I think, would be best. And as always, the easiest person to fool is yourself. So, it would be so easy to make the wrong decision, explain away the outcome, and then pat myself on the back for a job well done.
 
 _The DALL-E prompt for this was a cartoon hippo in the middle of tall grass with onlookers from a 3/4 bird's eye view._
 
@@ -47,6 +31,24 @@ When I talk about “making yourself visible” as an IC, it means framing your 
 When we mention upward visibility, the career benefits are obvious, better opportunities for advancement and more interesting problems to solve. The value of downward visibility isn’t clear because the consequences aren’t obvious. If the people who you lead don’t know what you’re doing for them, there is no career cost to you. There might be an efficiency cost to the team, but it’s unlikely to immediately have an impact one way or another.
 
 I’ve had a decent number of conversations with coworkers from past tech jobs who ask questions like “What does X director even do”. These discussions have made me notice how as we move up the leadership chain, we lose sight of making our behavior visible to a different set of concerns, the other ICs who live within the system.
+
+### A Hypothetical Situation
+
+Let’s say I, as a staff engineer, work on a team struggling to deliver a particular project. I have a few options. I can:
+
+1. Note that there’s an issue, but stay out of resolution determination with the team
+2. Communicate resolution steps to the team, but not take part in resolving the failures
+3. Communicate with the team and take an active role in making the project a success
+
+In various points each of these outcomes could be **the exactly right thing to do for the team**, it’s also possible that #1 could be a complete copout that sells the team short for my failings. It’s also possible that #3 could mean I end up overshadowing the team. Maybe we feel great that we launched, but there’s resentment that now people outside the team see the project as mine instead of the team’s or the other project leads.
+
+From my perspective, good leadership requires a constant sort of vigilance in terms of reflection and understanding of my behavior. Even **asking for feedback from the people impacted** won’t necessarily be a good barometer. People could be happy I jumped in and fail to see the negative externality I just caused on their career. Or, people could be unhappy I didn’t jump in, but fail to see the way the career growth and positive feedback they got for their response to the challenge improved their careers.
+
+**Note: This isn’t to say that you shouldn’t ask for feedback. It’s to say that the feedback is non-determinative in a way that it’s not in other roles.**
+
+This is the exciting and terrifying thing about staff+ roles. You are fully in charge, and can exceed or fall back to the level you feel comfortable. The constraints can be less about practical outcomes so much as they are about your ability to tell a good story and your desire to see impact.
+
+It’s hard to manage this visibility, and this challenge as a thoughtful tech leader (which I aspire to be, though I suspect I fail at quite regularly). We value the contributions of our team members, we view them as our equals, and we don’t want to put ourselves above them. The difference between being open and transparent and flaying your emotions out at the people whose careers you impact can feel awfully thin.
 
 ### Being Visible to the People You Lead
 
