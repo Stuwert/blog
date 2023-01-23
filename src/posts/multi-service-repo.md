@@ -1,9 +1,10 @@
 ---
-title: Multi-Service Repos
+title: How do you deploy multiple services from a single repo
+oldTitle: Multi-Service Repos
 date: 2022-10-17
 tags: [engineering, serverless]
 description: How do I deploy multiple services from a single repository?
-permalink: posts/{{ title | slugify }}/index.html
+permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published
 socialImage: /images/serverless/cloudformation-deploy.png
 ---

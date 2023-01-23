@@ -1,9 +1,10 @@
 ---
-title: Maybe Don't Try to Do Everything Immediately
+title: What to do next with your tech career after bootcamp
+oldTitle: Maybe Don't Try to Do Everything Immediately
 date: "2022-09-10"
 tags: [engineering, advice]
 description: An article exploring what exactly the best way to start your tech career or take next steps after learning how to code.
-permalink: posts/{{ title | slugify }}/index.html
+permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published
 ---
 

@@ -36,8 +36,14 @@ module.exports = function (eleventyConfig) {
 
   // Options for the `markdown-it-anchor` library
   const markdownItAnchorOptions = {
-    permalink: true,
+    // permalink: markdownItAnchor.permalink.linkAfterHeader({
+    //   style: "visually-hidden",
+    //   assistiveText: (title) => `Permalink to “${title}”`,
+    //   visuallyHiddenClass: "visually-hidden",
+    //   wrapper: ['<div class="wrapper">', "</div>"],
+    // }),
     level: [2, 3],
+    tabIndex: false,
   };
 
   const markdownLib = markdownIt(markdownItOptions).use(

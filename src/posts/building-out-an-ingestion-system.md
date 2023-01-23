@@ -1,11 +1,12 @@
 ---
-title: Building out an Ingestion System
+title: Ingesting External Financial Data
+oldTitle: Building out an Ingestion System
 author: Stuart Urback
-tags: [engineering, past-work]
+tags: [engineering, personal work examples]
 date: 2021-04-18
 description: An overview of a financial ingestion data structure.
 status: published
-permalink: posts/{{ title | slugify }}/index.html
+permalink: posts/{{ oldTitle | slugify }}/index.html
 ---
 
 The Prompt
