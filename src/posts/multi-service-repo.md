@@ -2,7 +2,7 @@
 title: How do you deploy multiple services from a single repo
 oldTitle: Multi-Service Repos
 date: 2022-10-17
-tags: [engineering, serverless, aws]
+tags: [serverless, aws]
 description: How do I deploy multiple services from a single repository?
 permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published

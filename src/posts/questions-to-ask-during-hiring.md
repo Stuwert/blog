@@ -1,7 +1,7 @@
 ---
 title: Questions to Ask During the Hiring Process
 date: 2021-05-08
-tags: [engineering, hiring]
+tags: [engineering, leadership, hiring]
 description:
   A list of questions you can ask your interviewers to see if the company
   might be good fit for you, as an engineer.

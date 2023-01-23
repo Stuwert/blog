@@ -2,7 +2,7 @@
 title: Four Different Patterns to Implement Serverless
 oldTitle: Four Looks at Serverless
 date: 2022-10-01
-tags: [engineering, serverless, aws]
+tags: [serverless, aws]
 description: What's the difference between the all of the serverless frameworks?
 permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published

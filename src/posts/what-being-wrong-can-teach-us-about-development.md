@@ -1,6 +1,6 @@
 ---
 title: What "Being Wrong" Can Teach Us About Software Development"
-tags: [engineering, psychology]
+tags: [leadership, engineering]
 author: Stuart Urback
 date: 2021-03-29
 description: What the science behind how to change your mind has to say about
