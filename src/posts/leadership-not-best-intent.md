@@ -1,7 +1,7 @@
 ---
 title: My Most Toxic Leadership Beliefs
 date: 2023-01-05
-tags: [leadership, responsibility]
+tags: [leadership, hypotheses]
 description: I have high expectations for people in positions of power and people with status. Let's talk about it
 permalink: posts/{{ title | slugify }}/index.html
 status: published

@@ -1,11 +1,12 @@
 ---
 title: Don't Build a Pit, Outfit Your Explorers
 date: 2022-09-14
-tags: ["engineering", "system design", "quick thought"]
+tags: [engineering, leadership]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/ian-chen-wrrgZwI7qOY-unsplash.jpg
+favorite: 5
 ---
 
 We've gotten to the point in software engineering where the concept of a [pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/) is mostly taken for granted. It's great that framework and system designers are showing the desire (and sometimes wherewithal) to make systems that users fail into success.

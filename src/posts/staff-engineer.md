@@ -1,11 +1,12 @@
 ---
 title: Becoming a Staff Engineer
 date: 2023-01-13
-tags: [engineering, staff engineering, personal growth]
+tags: [engineering, staff-plus-engineering, hypotheses]
 description: What are my biggest thoughts and hypotheses becoming a staff engineer
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL·E-humble-engineer.png
+popularity: 39
 ---
 
 ## Becoming a Staff Engineer

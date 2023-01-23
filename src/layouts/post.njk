@@ -19,15 +19,12 @@ layout: base.njk
   </main>
 
   <aside class="post__aside">
-    <div class="post__tags">
-      {% for tag in tags | pageTags %}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
-      {% endfor %}
-    </div>
+    <h4>You Might Also Like</h4>
+
+    {% set relatedPosts = collections.posts | status('published') | filterTags(tags, ["posts"]) %}
 
     <nav class="post__pagination">
-      {%- set nextPost = collections.posts | status('published') | getNextCollectionItem(page) %}
+      {%- set nextPost = relatedPosts | getNextCollectionItem(page) %}
       {%- if nextPost %}
 
         <a href="{{ nextPost.url | url }}">
@@ -37,7 +34,7 @@ layout: base.njk
 
       {% endif %}
 
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {%- set previousPost = relatedPosts | getPreviousCollectionItem(page) %}
       {%- if previousPost %}
 
         <a href="{{ previousPost.url | url }}">
@@ -49,7 +46,7 @@ layout: base.njk
 
     </nav>
   </aside>
-  <p>Like my writing? Want to get a monthly recap of what I've been working on?</p>
+  <p>Want to get a monthly recap of what I've been working on?</p>
   <iframe src="https://journeytothecore.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 </article>

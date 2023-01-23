@@ -1,7 +1,7 @@
 ---
 title: Is Marvel Snap Good?
 date: "2022-11-24"
-tags: [game design, Marvel Snap, mobile gaming]
+tags: [game-design, phone-games]
 description: For how much love (and hate) Marvel Snap has been getting, it's hard to tell just how good a game it actually is.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

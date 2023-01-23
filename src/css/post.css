@@ -25,6 +25,10 @@
   margin-top: 2rem;
 }
 
+.post__aside h4 {
+  text-align: center;
+}
+
 .post__tags {
   opacity: 0.8;
   font-size: var(--text-sm);

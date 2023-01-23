@@ -112,9 +112,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("head", (array, n) => {
-    console.log(array.length);
     if (n < 0) {
-      console.log(array.slice(n).length);
       return array.slice(n);
     }
 
@@ -130,18 +128,23 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("filterTags", (posts, tagsToInclude) => {
-    return posts.filter((post) => {
-      const { tags } = post.data;
-      if (tags === undefined) return false;
+  eleventyConfig.addFilter(
+    "filterTags",
+    (posts, tagsToInclude, tagsToIgnore = []) => {
+      return posts.filter((post) => {
+        const { tags } = post.data;
+        if (tags === undefined) return false;
 
-      const hasTag = tags.find((tag) => {
-        return tagsToInclude.includes(tag);
+        const hasTag = tags
+          .filter((tag) => !tagsToIgnore.includes(tag))
+          .find((tag) => {
+            return tagsToInclude.includes(tag);
+          });
+
+        return hasTag !== undefined;
       });
-
-      return hasTag !== undefined;
-    });
-  });
+    }
+  );
 
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
@@ -167,7 +170,35 @@ module.exports = function (eleventyConfig) {
       }
     });
 
-    return [...tagSet];
+    return [...tagSet].sort((a, b) => a.localeCompare(b));
+  });
+
+  eleventyConfig.addCollection("popular", (collection) => {
+    const popularPosts = collection.getAll().filter((post) => {
+      return "popularity" in post.data;
+    });
+
+    popularPosts.sort(
+      ({ data: dataA }, { data: dataB }) => dataB.popularity - dataA.popularity
+    );
+
+    console.log(popularPosts.length);
+
+    return popularPosts;
+  });
+
+  eleventyConfig.addCollection("favorite", (collection) => {
+    const favoritePosts = collection.getAll().filter((post) => {
+      return "favorite" in post.data;
+    });
+
+    favoritePosts.sort(
+      ({ data: dataA }, { data: dataB }) => dataB.favorite - dataA.favorite
+    );
+
+    console.log(favoritePosts.length);
+
+    return favoritePosts;
   });
 
   eleventyConfig.addFilter("pageTags", (tags) => {

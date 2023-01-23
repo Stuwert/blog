@@ -6,6 +6,7 @@ description: Quick thoughts on how to make your meetings suck less, maybe
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg
+popularity: 33
 ---
 
 Something that's come as a surprise to me, I've collected a bit of a reputation and an ability to run a solid meeting. I've gotten feedback about how the meetings I run are energizing and feel useful.

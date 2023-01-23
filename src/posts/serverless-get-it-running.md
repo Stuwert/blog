@@ -1,10 +1,11 @@
 ---
 title: How do I get a serverless function running locally?
 date: 2022-09-25
-tags: [engineering, serverless]
+tags: [engineering, serverless, aws]
 description: How do I run a serverless function locally?
 permalink: posts/{{ title | slugify }}/index.html
 status: published
+popularity: 55
 ---
 
 The first step in my journey to [recreate an old server of mine](https://github.com/play-this-tonight/games-api) in lambdas starts with getting a local development environment functioning.

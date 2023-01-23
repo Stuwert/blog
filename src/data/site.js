@@ -12,21 +12,17 @@ module.exports = {
   defaultSocialImage: "/images/default-social-image.png",
   headerLinks: [
     {
-      text: "Games + Culture",
-      url: "/culture",
-    },
-    {
       text: "Serverless Deep Dive",
       url: "/serverless",
     },
     {
-      text: "Blog",
-      url: "/blog",
+      text: "Tags",
+      url: "/tags",
       external: false,
     },
     {
-      text: "About",
-      url: "/about",
+      text: "Best Writing",
+      url: "/best",
       external: false,
     },
   ],

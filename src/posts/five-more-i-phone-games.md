@@ -1,9 +1,10 @@
 ---
-title: Five More Phone Games
+title: Five iPhone Games You Probably Haven't Tried, But Should
+oldTitle: Five More Phone Games
 date: 2022-10-07
-tags: [game, ios games, phones]
+tags: [games, phone-games]
 description: Five iPhone Games Under $5 that you should take a look at
-permalink: posts/{{ title | slugify }}/index.html
+permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published
 socialImage: /images/games/poinpy.jpeg
 ---

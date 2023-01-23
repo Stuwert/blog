@@ -2,10 +2,11 @@
 title: What to do next with your tech career after bootcamp
 oldTitle: Maybe Don't Try to Do Everything Immediately
 date: "2022-09-10"
-tags: [engineering, advice]
+tags: [engineering, bootcamp, junior-engineer]
 description: An article exploring what exactly the best way to start your tech career or take next steps after learning how to code.
 permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published
+favorite: 1
 ---
 
 The most oft asked questions, especially in your first 0-2 years of being an engineer is, what should I learn next? (You will continue to have these questions for the rest of your life, but by the time you hit year 5 you've mostly stopped asking them in polite conversation).

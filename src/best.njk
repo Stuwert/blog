@@ -1,0 +1,14 @@
+---
+layout: base
+permalink: /best/
+---
+
+<h2>Popular Posts</h2>
+
+{% set postslist = collections['popular'] %}
+{% include "posts-title-list.njk" %}
+
+<h2>My Favorites</h2>
+
+{% set postslist = collections['favorite']%}
+{% include "posts-title-list.njk" %}

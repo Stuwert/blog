@@ -2,7 +2,7 @@
 title: How do you decide when to *not* solve a problem?
 oldTitle: Letting it Go
 date: 2022-11-23
-tags: [productivity, advice]
+tags: [productivity, engineering]
 description: How do
 permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published

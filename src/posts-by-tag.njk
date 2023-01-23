@@ -1,0 +1,13 @@
+--- 
+layout: base.njk 
+permalink: /tags/ 
+---
+
+
+{% for tag in collections.tagList %}
+
+<h2><b>{{ tag }}</b></h2>
+{% set postslist = collections.posts | status('published') | filterTags([tag]) %}
+{% include "posts-title-list.njk" %}
+
+{% endfor %}

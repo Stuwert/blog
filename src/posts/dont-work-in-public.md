@@ -1,7 +1,7 @@
 ---
 title: Do You Need to Work In Public?
 date: 2022-09-28
-tags: [engineering, junior engineer]
+tags: [junior-engineer, bootcamp]
 description: Discussing some of the pros and cons to creating a public portfolio of writing and coding.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
