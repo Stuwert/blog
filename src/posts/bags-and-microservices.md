@@ -5,7 +5,7 @@ tags: [metaphors, serverless, software-engineering]
 description: Using an airport baggage claim system as a metaphor for distributed system engineering.
 permalink: posts/{{ title | slugify }}/index.html
 status: draft
-socialImage: /images/serverless/DALL·E 2023-01-27 birds eye baggage system.png
+socialImage: /images/serverless/DALL·E2023-01-27-birds-eye-baggage-system.png
 ---
 
 With the move to “the cloud” and “distributed systems” it’s gotten harder to come up with a mental model for talking to the not-engineers in my life about what I do. I also think it’s harder as an engineer to visualize what’s going on under the hood.
