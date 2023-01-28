@@ -81,7 +81,7 @@ But for the most part, when the system works, poor operation isn’t ever seen b
 
 Looking at you Southwest…
 
-_Edward Hopper painting of hundreds of bags at baggage claim and disgruntled passengers waiting_
+_DALL·E Edward Hopper painting of hundreds of bags at baggage claim and disgruntled passengers waiting_
 
 ![a representation of Edward Hopper painting of hundreds of bags at baggage claim and disgruntled passengers waiting](/images/serverless/DALL·E2023-01-27-Edward-Hopper-Baggage-Claim.png)
 
