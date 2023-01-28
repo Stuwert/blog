@@ -7,6 +7,7 @@ const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 const isDev = process.env.ELEVENTY_ENV === "development";
 const isProd = process.env.ELEVENTY_ENV === "production";
@@ -29,6 +30,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(embedYouTube);
 
   const markdownItOptions = {
     html: true,
