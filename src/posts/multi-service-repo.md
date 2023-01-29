@@ -1,5 +1,5 @@
 ---
-title: How do you deploy multiple services from a single repo
+title: Deploying multiple lambdas from one repo
 oldTitle: Multi-Service Repos
 date: 2022-10-17
 tags: [serverless, aws]

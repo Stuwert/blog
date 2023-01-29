@@ -2,7 +2,7 @@
 title: Becoming a Staff Engineer
 date: 2023-01-13
 tags: [staff-plus-engineering, hypotheses, leadership]
-description: What are my biggest thoughts and hypotheses becoming a staff engineer
+description: My strongest opinions about becoming a staff engineer
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL·E-humble-engineer.png

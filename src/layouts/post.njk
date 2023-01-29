@@ -12,6 +12,14 @@ layout: base.njk
       <span> | </span>
       <span>{{ content | readingTime }} read</span>
     </div>
+    <div class="post-list__tags">
+      {% for tag in tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+    </div>
   </header>
 
   <main class="post__content">
