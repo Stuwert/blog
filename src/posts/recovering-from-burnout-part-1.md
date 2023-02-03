@@ -10,7 +10,9 @@ socialImage: /images/DALL·E-2023-02-03-00.24.42-burnout-board-game.png
 
 ### What I’m Trying With All of This
 
-In mid through late 2021 I experienced what I would call burnout, the concept that I truly had nothing left in the tank emotionally to strive at my job, even if the interest remained. I still remember the vague googling around “recovering from burn out” in late 2021. It was… so disheartening. Most of the advice revolved around “rest and recovery” and “taking a break”. I think it all stems from the popular conception of burn out, that you burn out if you work too hard for too long.
+In mid through late 2021 I experienced what I would call burnout, the concept that I truly had nothing left in the tank emotionally to strive at my job, even if the interest remained. I still remember the vague googling around “recovering from burn out” in late 2021. It was… so disheartening. Looking back as someone who's found quite a bit of happiness and contentment with their job, I decided to write the article that might've helped me feel less alone and confused at that time.
+
+Most of the advice revolved around “rest and recovery” and “taking a break”. I think it all stems from the popular conception of burn out, that you burn out if you work too hard for too long.
 
 But I’d be worked 80+ hour weeks to get a launch out, and then feel “burn out” only to take a small break, get some good sleep again and feel ready to go. No, this was something else. Those sessions felt more like doing a really challenging workout and needing recovery than burnout, which felt more like an injury.
 
