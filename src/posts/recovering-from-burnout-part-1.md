@@ -1,81 +1,72 @@
 ---
-title: "The Art of Self-Preservation: Part 1, Recognizing I'm Burnt Out"
-date: 2023-02-02
-tags: [leadership, mental-health, being-acquired]
+title: "The Art of Self-Preservation Part 1: Recognizing I Was Burnt"
+date: 2023-02-03
+tags: [mental-health, acquisition, burn-out]
 description: In which I start to recount my journey into realizing I was burnt out.
 permalink: posts/{{ title | slugify }}/index.html
-status: draft
-# socialImage: /images/serverless/jeshoots-com-fzOITuS1DIQ-unsplash.jpg
+status: published
+socialImage: /images/DALL·E-2023-02-03-00.24.42-burnout-board-game.png
 ---
 
 ### What I’m Trying With All of This
 
-I still remember when I first realized I was burnt out, trying to figure out what to do. It was a ton of focus on “rest and recovery”, advice which would be generally helpful to someone who was tired, but not really helpful for what I was experiencing.
+In mid through late 2021 I experienced what I would call burnout, the concept that I truly had nothing left in the tank emotionally to strive at my job, even if the interest remained. I still remember the vague googling around “recovering from burn out” in late 2021. It was… so disheartening. Most of the advice revolved around “rest and recovery” and “taking a break”. I think it all stems from the popular conception of burn out, that you burn out if you work too hard for too long.
 
-The biggest piece of advice that connected with me was the concept that “burn out” wasn’t about working too much or too hard, it was about feeling out of control of your life.
+But I’d be worked 80+ hour weeks to get a launch out, and then feel “burn out” only to take a small break, get some good sleep again and feel ready to go. No, this was something else. Those sessions felt more like doing a really challenging workout and needing recovery than burnout, which felt more like an injury.
 
-But… beyond that there was basically nothing in the way of actually recovering from it. A lot of the sources wanted to focus on the challenge like a trauma. And, I suppose in the sense that it was something that was truly negative it was “trauma”, but it didn’t raise to the level of disrupting my ability to lead my life. It disrupted my ability to energetically push my life forward, and understanding how to grow past that was tough.
+And around the same time, Adam Grant popularized the term “languishing” for the sense of aimlessness that knowledge workers felt during the pandemic. The loss of direct community and direction. But this wasn’t that, I had re-found a community of purpose at Guild that I was interested in, and I had specific goals I would like to achieve.
 
-To give a bit of a tl;dr here, the metaphor I found most helpful was treating burn out like an emotional sprain or strain. Like twisting an ankle or pulling a hamstring. Doing “normal stuff” wasn’t hard, but I had to learn how to grow back through it.
+Finally, I knew what I was going through **wasn’t** depression because the desire was there. It wasn’t that I didn’t want to push hard or do good work, it was that when I started pushing, waves of emotional exhaustion would hit.
 
-### What is Burnout
+Having been through severe anxiety before, it was possible to differentiate between what felt like a serious mental health condition, and honestly, in retrospect what felt like an emotional work injury.
 
-I’ve casually talked a lot about burnout with friends before. There have been plenty of weeks where I spent too much time at work, didn’t get enough sleep, and needed to take a break in order to recover. This is how I described burnout before. And it’s what I thought about when I talked about it.
+_A Dall-E Representation of: the internal experience of burnout represented as a cave painting_
+![A Dall-E Representation of: the internal experience of burnout represented as a cave painting](/images/DALL·E-2023-02-03-00.23.23-burnout-cave-painting.png)
 
-But then the pandemic hit, life got turned completely upside down, and the company I was working for had to go through layoffs and pay reductions to stay afloat.
+### How it Started
 
-That was emotionally challenging, but the other side of that was actually quite fun, freeing even. We didn’t have many users but we had tons of time and space to pick a direction and focus on it. It was great.
+In late 2018 I left my first job as a software engineer to join a small startup named Pana that was trying something compelling in the business travel industry. They were a company focused on “Guest Travel”, or travel that was still **for a company** but was being done by someone who wasn’t a full-time employee at that company, like an intern or an interviewee. There were a number of r interesting technical and product challenges that they were trying to manage, and I just vibed with the group of people doing the work.
 
-We got another round of funding and that was great.
+And in early 2020 I felt like an important part of that company. I could see not only the impact I was making, but vividly imagine a future where I could grow my career with the company and the people who worked there. We were on the cusp of signing some massive clients which could have fundamentally changed the scale we were working at.
 
-And then we got bought, and everything changed.
+At the time, I was working really hard with my team to deliver what felt like essential features.
+
+And then the pandemic hit…
+
+Within a few weeks, we went from being on the cusp of success to being on the brink of failure. We went through layoffs, pay decreases, and a remote working situation that made communication feel impossible. (Many of the tools and practices that we now take for granted really didn’t exist)
+
+But, as a community, we pivoted. We found a new direction (within the travel space) to move as a company, and we started developing features to get there. It was weirdly a bit like summer camp for the final half of 2020. While we were developing features, there weren’t any users to test them, so there wasn’t that typical back and forth challenge of trying to prioritize maintaining existing code or shipping.
+
+I even helped lead the architecture and launch one of the features I’m most proud of as an engineer. The beginnings of a financial matching and reconciliation system.
+
+> You might notice these are heavily rose-tinted lenses I’m looking back with. And… they absolutely are. I want to avoid papering over what were really challenging times or the arguments and back and forth that happened. But… the rose-tinting is important to frame my feelings. It was hard, but it felt purposeful.
+
+And then… in early 2021 it happened. We got bought.
 
 ### Joining Coupa
 
-Coupa wasn’t a great fit for me. I became an engineering manager, the role I had been striving for what felt like my entire career and everything kind of changed.
+The funniest trope in acquisitions is how you’re still following “the same mission” but with “increased scope and resources”. It’s a silly statement, and I get why it gets said, but the reality is that new owners will have new and different opinions about what they would like to see. That’s… the point of an acquisition. It gets said because the alternative would be pretty crappy, “we’re going to change what you were working on and cared about, and you'll need to deal with it”.
 
-I had read all of those things that said that shifting to engineering manager was a huge transition. And it was a compounding transition that I just wasn’t entirely ready for. I rebelled against basically all of it, but couldn’t figure out what was my emotions and what was genuine frustration.
+The alternative, in an ideal world, also just isn’t entirely true. Ideally, both companies would like for there to be an on-ramp to that change. Maybe eventually your product changes, but there would be a slow wind down where your systems/tools/beliefs get absorbed into the larger org.
 
-So I started looking elsewhere, guessing that I just needed to change jobs, to change roles and it would get better, because Coupa was the issue.
+But getting acquired was a shell shock. Logically, I recognized trying to have maintained an independent small travel business through 2021 and 2022 would have been absolute madness. But emotionally, I was completely invested in the problem we were trying to solve and the way we were attempting to solve it.
 
-Mid-2021 I left Coupa as a result and joined Guild.
+In that sense, it was shattering. It wasn’t just that an external source had taken away something I (and my close coworkers) had been striving for. It wasn’t just that it felt so fundamentally out of the blue. It was that it felt like we had gotten so many of the things about working together as an org, about problem-solving, about communicating really right. The thought I kept coming back to was “oh, we got about as close as you could to getting it right, and we still were absolutely meaningless in the face of all of that”.
+
+Trying to manage through those emotions while being promoted to engineering manager (a personal goal I’d had for many years in my career) while adjusting to a new company, culture, and responsibilities, was honestly just too much. I was actually burnt out. The dichotomy of getting the thing I had wanted (becoming a manager) while also having the identity I had attached it to ripped away (Pana Guest Travel) was a ton to process while also doing a job. So I left.
 
 ### Joining Guild
 
-After I quit Coupa and joined Guild I thought it would get better. The company was more closely aligned with my values, it fit the vision of where I thought Pana would have gone. And that felt great.
-
-The company has a focus on employee experience, a great mission, and a bunch of problems to solve that felt like it should have lit me up. But it didn’t make me feel better. Actually it made me feel worse.
-
-This was no fault of Guild’s. It just represented a clear picture of the future I had lost, a future where I would have to work to rebuild what I had lost. The inside jokes, the responsibility, the everything of it that I saw people sharing that could have been mine and no longer was.
-
-And that hurt a lot.
+In mid-2021 I left Coupa, took a 2-week break (where my wife and I roadtripped back to the West Coast) and joined Guild Education, a company that felt way closer to my heart. Guild had a mission of helping people I was fully bought in on, it aligned with a close personal interest of mine (education). I assumed that rediscovering that sort of emotional alignment, while working at a company that seemed to have an incredible employee experience, would, honestly, resolve my burnout. I had taken myself out of the fire.
 
 And that’s when I realized I was completely and totally burnt out.
 
-### The Narrative of It All
+Usually when I start at a new company, I’m excited to jump in and start learning all the new things. Trying to get a better sense of what’s going on, how things work, and how I can start making a small but noticeable impact.
 
-The outcome for me, was honestly about as well as I could’ve hoped. There was a small payout, I got a raise, ostensibly, and was employed by a larger company that had more and better stability. But part of me really was shattered. I was able to recognize the intelligence of the decision. We were a small travel company in a world where travel had been completely turned upside down. Our prospects were bleak and an exit (any exit) was valuable, much less one that resulted in a positive outcome for a large portion of the employees (and the investors).
+But at Guild, even though everyone was incredibly friendly, helpful, and patient, every time I tried to pick up new information I felt completely overwhelmed by the situation. I was confused by the terminology, by the flow of information, and by why everything that used to feel so natural felt so confusing. It was honestly completely disorienting.
 
-But the narrative I had built about Pana shattered a bit. That vision of the company that was growing, and that my career would grow with.
-
-I felt like I had finally hit it with Pana. I had found the right company and the right people where I could make an impact and grow with the company as it grew.
-
-And just like that… it was gone.
-
-### What It Felt Like
-
-The hardest thing about burning out is that unlike other stress responses (I’ve had a decent amount of experience with anxiety and panic attacks), it wasn’t overwhelming. It didn’t dominate my life. It was a slow thrum, a slow drag that stopped me in my tracks whenever I wanted to pick up a new project, or go above and beyond at work.
-
-It just felt like… why bother. Why bother going back through all of this effort trying to regrow my career only to see it fall apart again. Not just that I might not fit correctly, that some force outside of my control might completely eliminate that progress altogether.
-
-It’s hard to say this stuff without seeing the privilege in all of it. Privileged white-boy suffers a minor setback and decides he can’t tell if it’s all worth it anymore.
-
-And… there’s definitely some of that, but I’d dealt with having my vision changed before. This felt really different. This felt like… not just that I had lost something, but I had lost my people. Lost the community of people that I wanted to learn and grow with. And that loss hit harder than any personal gain.
+So, I tried something new… I gave myself permission not to strive.
 
 ### What Next
 
-So I knew something was wrong. And for me, often that’s the step to just fixing it. But this went further.
-
-So I started doing some research and trying to get a better perspective on where to go next.
-
-Come back for Part 2 next week!
+That’s all for this week! I wanted to focus on deep diving on the what and the why. Next week I’m going to dig into what recovery looked like, and why the Nike Running Club app became one of my go-to techniques.
