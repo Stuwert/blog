@@ -1,7 +1,7 @@
 ---
 title: How do I get a serverless function running locally?
 date: 2022-09-25
-tags: [serverless, aws]
+tags: [serverless, aws, local-development]
 description: How do I run a serverless function locally?
 permalink: posts/{{ title | slugify }}/index.html
 status: published

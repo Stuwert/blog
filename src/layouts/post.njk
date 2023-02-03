@@ -26,7 +26,13 @@ layout: base.njk
     {{ content | safe }}
   </main>
 
+  
+
   <aside class="post__aside">
+    {% if 'serverless' in tags %}
+      <p>If you enjoyed this article, take a look at my other explorations in the <a href="/serverless">serverless space!</a></p>
+    {% endif %}
+
     <h4>You Might Also Like</h4>
 
     {% set relatedPosts = collections.posts | status('published') | filterTags(tags, ["posts"]) %}

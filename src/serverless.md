@@ -12,6 +12,10 @@ As I answer each question, it'll show up in the below list as a link with a read
 
 ---
 
+- ~~How does API Gateway get configured?~~ The answer to this can be found in my [Get It Running Locally](/posts/how-do-i-get-a-serverless-function-running-locally) post
+- How does AWS SAM sync work with Appsync?
+- How does AWS SAM sync work with DynamoDB?
+- Does AWS SAM sync work to connect an Appsync instance to DynamoDB via pipeline resolvers?
 - What does “Deployment” mean?
 - How many functions fit in a single lambda? How many functions belong in multiple repos?
 - Does everything live in a single repo or many repos?
@@ -19,7 +23,6 @@ As I answer each question, it'll show up in the below list as a link with a read
 - How do Events work?
 - What's an AppSync?
 - What is a step function?
-- ~~How does API Gateway get configured?~~ The answer to this can be found in my [Get It Running Locally](/posts/how-do-i-get-a-serverless-function-running-locally) post
 - How do I operate DynamoDb effectively?
 - How do I implement Auth as a middleware?
 - Can I easily use websockets?
@@ -32,4 +35,3 @@ As I answer each question, it'll show up in the below list as a link with a read
 - What is Architect and STS?
 - How do I construct a Step Function?
 - Can I orchestrate a series of Serverless Templates?
-- What is AWS SAM sync?

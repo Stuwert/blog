@@ -1,7 +1,7 @@
 ---
 title: Explaining Software Engineering with Airplane Luggage
 date: 2023-01-28
-tags: [metaphors, serverless, software-engineering]
+tags: [metaphors, distributed-services, software-engineering]
 description: Using an airport baggage claim system as a metaphor for distributed system engineering.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
