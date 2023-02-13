@@ -72,3 +72,5 @@ So, I tried something new… I gave myself permission not to strive.
 ### What Next
 
 That’s all for this week! I wanted to focus on deep diving on the what and the why. Next week I’m going to dig into what recovery looked like, and why the Nike Running Club app became one of my go-to techniques.
+
+[This is continued in part 2 on recovering from burnout.](/posts/the-art-of-self-preservation-part-2-recovery)
