@@ -8,8 +8,6 @@ status: published
 socialImage: /images/DALL·E-2023-02-17-21.07.35-a-stained-glass-window-of-someone-smiling-at-a-letter.png
 ---
 
-## Go Write Someone Feedback
-
 What if I told you there was one small weekly behavior you could do to improve your career goals, increase psychological safety, make people like you more at work, and make you a slightly better person? That would be an oversimplification, but I don’t actually think it’s that far off the mark.
 
 You should make a weekly habit of finding someone to give positive feedback to, and give it to them formally and in writing so their manager can see. I started doing this, probably close to a year ago now, as a way to give back to my coworkers. And I’ve just kept going because every time I do it, I feel a little bit better.
