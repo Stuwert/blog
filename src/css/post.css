@@ -29,6 +29,34 @@
   text-align: center;
 }
 
+.content__aside {
+  background-color: var(--light-accent);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.content__aside > h4 {
+  font-weight: bold;
+  font-size: var(--text-base);
+  margin-block: 0;
+}
+
+.content__aside > p {
+  font-style: italic;
+  font-size: var(--text-sm);
+}
+
+@media (min-width: 400px) {
+  .content__aside {
+    float: right;
+    width: 40%;
+  }
+  .content__aside > h4 {
+    line-height: 0;
+    margin-top: 1rem;
+  }
+}
+
 .post__tags {
   opacity: 0.8;
   font-size: var(--text-sm);

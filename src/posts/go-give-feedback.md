@@ -14,15 +14,16 @@ You should make a habit of giving someone positive, formal, written feedback. Ma
 
 If you’re reading this, it’s likely that you have some sort of formal feedback tracking system that you can input. And if you’re not, you can send an email.
 
-### Why I’m Focusing On Positive Feedback
+<aside class="content__aside">
+<h4>Why I'm Focusing On Positive Feedback</h4>
+<p>Firstly, I’m talking about giving formal feedback. I think you need to be careful about putting negative/constructive feedback in a formal setting. I would really only recommend doing so in the case where the person you’re giving it to requested it or where you have given said feedback multiple times, and you feel the situation needs to be escalated.</p>
 
-> Firstly, I’m talking about giving formal feedback. I think you need to be careful about putting negative/constructive feedback in a formal setting. I would really only recommend doing so in the case where the person you’re giving it to requested it or where you have given said feedback multiple times, and you feel the situation needs to be escalated.
->
-> Secondly, in most cases, constructive feedback is more valuable to deliver as quickly as possible over voice or in person communication. I just don’t think most constructive feedback should be formally shared.
->
-> Thirdly, I think people drastically underrate the power of positive feedback to shape behavior. If you tell someone, “I really appreciate when you do X”, they will likely do more of it.
->
-> I’m going to list give three reasons: one selfish, one altruistic, and one in between. I would encourage you to pick a reason, or make one of your own, and make it a weekly habit.
+<p>Secondly, in most cases, constructive feedback is more valuable to deliver as quickly as possible over voice or in person communication. I just don’t think most constructive feedback should be formally shared.</p>
+<p>Thirdly, I think people drastically underrate the power of positive feedback to shape behavior. If you tell someone, “I really appreciate when you do X”, they will likely do more of it.</p>
+
+<p>I’m going to list give three reasons: one selfish, one altruistic, and one in between. I would encourage you to pick a reason, or make one of your own, and make it a weekly habit.</p>
+
+</aside>
 
 ### 1. The Selfish Reason
 
@@ -43,4 +44,6 @@ If you’re at a large company, most feedback is going to come in waves at the o
 ![A DALL-E rendering of a stained glass window of someone smiling at a letter](/images/DALL·E-2023-02-17-21.07.35-a-stained-glass-window-of-someone-smiling-at-a-letter.png)
 _A stained glass window of someone smiling at a letter_
 
-It takes about 5 minutes to do, just open up your email or Lattice or 15Five or ADP or whatever you use, find someone who you interacted with this week, and write them something. You’ll feel good and they’ll appreciate it. It’ll make your place of work a little bit better, make people feel a little bit more seen, and make you feel good about your coworkers.
+It takes about 5 minutes to do, just open up your email or Lattice or 15Five or ADP or whatever you use, find someone who you interacted with this week, and write them something. You’ll feel good and they’ll appreciate it. It’ll make your place of work the tiniest bit better, coworkers feel a bit more seen, and make you feel good.
+
+So go do it. Open your tool of choice and drop someone a quick bit of positive feedback.
