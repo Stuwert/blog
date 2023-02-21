@@ -31,9 +31,9 @@ Writing lots of feedback, I believe, is an important point of visibility in your
 
 ### 2. The Altruistic Reason
 
-This is definitely the coworker version of “tell your friends and family you love them”. There’s never been a point in my career where I’ve felt I was getting too much (positive **or negative**) feedback. It’s so easy to assume that because you enjoy working with your coworkers, that they know that. They probably could use a reminder, but even if they do, you should take a few minutes to put it in writing.
+This is definitely the coworker version of “tell your friends and family you love them”. There’s never been a point in my career where I’ve felt I was getting too much (positive **or negative**) feedback. It’s so easy to assume that because you enjoy working with your coworkers, that they know your positive feelings. They probably don't, and even if they do, you should take a few minutes to put it in writing. It's a good reminder, and helps them get visibility on their positive work with their managers.
 
-This isn’t to say I never received positive or negative feedback, just that it typically came in the form of big moments. A project that went well, a raise, or a project that went poorly, or some big feedback about behavior that needed to be corrected. The small stuff, the clarifying, steadying stuff often goes unnoticed. I cannot tell you the number of times when I did something nice for someone and never heard about it, but would’ve been through the moon for a small thank-you.
+Most feedback that gets shared, in my experience, is the big stuff. A project that went well, a raise, or a project that went poorly, or some big feedback about behavior that needed to be corrected. The small stuff, the clarifying, steadying stuff often goes unnoticed.
 
 ### 3. The Semi-altruistic Reason
 
