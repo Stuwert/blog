@@ -1,63 +1,52 @@
 ---
-title: Testing, Monitoring, Ways of Seeing as a Dev
+title: '"Seeing" Code as a Dev: Testing and Monitoring'
 date: 2023-02-25
 tags: [monitoring, testing, developer-experience]
 description: TDD, Monitoring, and other things can feel like buzzwords, but they're actually key ways to "see" the systems we build, especially as we scale.
 permalink: posts/{{ title | slugify }}/index.html
-status: draft
+status: published
+socialImage: /images/DALLE-ui-of-where-bug-is.png
 ---
 
-When I talk or hear about test driven development, domain driven design, hexagonal architecture, or monitoring as a strategy, I find the general perspectives and rules to be hard to follow. Like how can you tell what Test Driven Development actually is? Do you, say, have to always write the tests first? And anytime I've encountered these principles the interactions can feel dogmatic, restricting, and confusing as hell. Why would I want to slow down what I'm doing, not rely on my own experience, and spend more time writing tests and managing monitors than writing code?
+I remember learning about test driven development or monitoring as a strategy primarily as ways to improve the trust and reliability of my code. But as a junior developer I remember how much those things felt like restrictions rather than empowerments. I remember thinking about how silly it was to be asked to do all of this extra work or configuration to ship the same amount of functionality.
 
-But the reasons become clear especially as the systems you build become more complex. Those tools are the only ways we can see and comprehend the software we write.
+On reflection this is kind of hilarious to me, because basically every part of React has been sold as a Developer Experience benefit, even in the early days when it required an obscene amount of Webpack setup, the benefit was always **better DX**. And the same for Typescript. But no one ever said TDD was a better DX, they just said I had to if I wanted to call my code good, so I rebelled against it.
 
-### Unhelpful Metaphors
+## How do you know your code works?
 
-When I started learning about test driven development I basically thought it was complete BS., to be honest. The thought that you would write tests before you wrote your code and then (and only then) would you write functionality for your code seemed absolutely ridiculous.
+But as I got more experience, and as I started joining more teams, I began to see the benefits of both of the things. There’s nothing quite like the experience of going through your first on-call rotation and experiencing waves of bugs with little to know warning and having to try to figure out **what the system is doing**. It really sucks. And then the slack journey of trying to figure out which PM or dev wrote the tickets or the code and then trying to figure out if the code is actually working the way they intended often within a tight and stressful timeline.
 
-Since then I’ve come around to the perspective that anything that doesn’t have solid tests is basically code that no one truly understands how it operates. I still wouldn’t call myself someone who believes in “Test Driven Development”, but tests are a core part of how I develop. But how did I get there and why?
+There’s a lot of bike shedding around what encapsulate test driven development and what good monitoring looks like, and how to tell if you’re following “best practices” at any of these things. I don’t find this critique focused method of analysis a particularly great way to encourage myself or others to jump onto the testing or monitoring bandwagons, or particularly good internal heuristics for understanding if I’m doing it well.
 
-### Evolution of Architecture and Ways of Seeing
+So instead, I’d like to posit we thinks about tests and monitoring a different way: we should think about them as ways of building our internal image of the code.
 
-Starting as a developer, the first things you think about are literally doing things that show up on your screen/terminal/etc. So code is, in that sense, literally something you create that produces an impact that **you** can notice. What you see in the code is literally how you understand how your code works.
+### Seeing With Code
 
-But as you start developing more complex systems you might integrate other tools like manual testing, UX feedback, or say, asking friends or family members what they think about something you’ve created.
+The first class I took in college was Observational Drawing. My art teacher was a soft-spoken critical man with a belief that anyone could learn to draw because drawing wasn’t about talent, it was about changing how you see the world. He would say we spend so much time looking through our eyes that our brains would just start to abstract shapes into ideas. So instead of seeing collections of lines and shadows we would see a house or a person. Learning to draw was about stepping back and seeing those lines and shapes and shadows again, instead of the idea. He would encourage us to hold up our pencils against the object we were trying to recreate so we could get a real idea of the angle or the size or the distance. Basically a way of forcing our brains to deal with the world as it is instead of the abstraction.
 
-If you work at a software startup that’s scaling, you’ll start to build out a bug process. And that process will involve collecting bug reports from your users and using those pieces of information to inform how you “see” your software.
+I think of my own growth with software engineering similarly. I spent so much of my time thinking about getting to the execution of the whole that I would often miss the small building blocks to getting there.
 
-Seeing things with your eyes, either in the form of personal user testing, recreating a flow on your local machine, or through screen capture technology like Fullstory can feel the most concrete and physical. But at best it can only give you a limited slice of what many of your users might be seeing and building.
+#### My Limited Perspective
 
-### Building Flexible Systems
+Starting in bootcamp as a developer the first way I “saw” my code was by running it on my personal machine. I would make a change and either run it in the terminal, open up a browser, or fire off a request and saw if it “did the thing” I expected. If it didn’t I would debug the issue, make some changes to my code and then try again. It’s sort of the “guess and check” methodology if you will.
 
-As devs we want to build flexible systems. We want systems that do their best to accomplish what their users want and only error at the final moment that things go wrong. Often this happens through the liberal application of try/catches and error logs that are meant to “inform” some sort of monitoring system when things go wrong but not let it escape to the user that anything bad has happened. Or it happens by allowing different values to be not set and have the system just try to “deal with it” if that happens. Has the user not provided their phone number yet? That’s fine, just let it through and we’ll clean it up later.
+#### Seeing Through Feedback
 
-A former boss came up with an excellent metaphor for this sort of development, **sick is worse than dead**. In terms of maintaining the system, the problem with defaulting to sick instead of dead is that it’s actually hard to tell **what the system is trying to accomplish** at any given time. Is phone number required? Maybe for this business it is, so maybe you’ll get a bug there, but from a systemic perspective it isn’t.
+As I got more experienced, code reviews became part of that practice and then sending the code off to a PM or a tester to exercise it and give me feedback. So my view of the code expanded. I didn’t just think about whether or not I could execute the code, but whether or not I could hand it off and it would succeed even if others were doing the testing.
 
-Sick is worse than dead not only proliferates the number of bugs that get created, it also doubles down on implicit knowledge in the operation of the system. How do you know what the business requirements are? You have to access the developer that put it together and why they intended to allow that value through. If code doesn’t accurately represent business expectations, the business will still expect those things, but then it’s on the developers to understand and maintain the system they’re a part of.
+But these ways of seeing and visualizing code are quite self limiting. You only have to go through a few rounds of on-call and a few incidents to understand just how quickly even chaining 2 to 3 functions together can create a plethora of outcomes you didn’t intend.
 
-And it directly connects to “ways of seeing”. It’s because in this world you can only “see” what happens as the result of the output of the system and someone communicating to you something has gone wrong. That “seeing through communication” is faulty, flaky, and scales really poorly.
+#### Seeing With Tests
 
-### Tests to the rescue
+So that’s why the next level of seeing, is seeing with tests. I believe that fundamentally unit tests and functional tests don’t primarily exist to “protect” our code from future bugs. Unit tests and functional tests exist to encapsulate the boundaries of the functions and services we write. They help us understand, articulate, and see our code better, and they help us share that knowledge with other developers.
 
-Often when we start writing tests against a mature codebase it can feel incredibly painful. Flexible functions with a variety of outputs are incredibly difficult to test. If the shape of an object in a response can vary based on the types of input, the optimal outcome is to write tests for each of those use cases. But enumerating them out is so hard.
-
-Tests actually require that we start writing different types of functions that operate in a much smaller scope, so we can use tests to explain and understand them. And this can feel strange, uncomfortable and limiting, because we can’t just write a thing to do a thing, we have to write a function that can be tested.
-
-For me, what this comes down to is how you, as a developer, understand the functioning of your code, at a unit, functional, and integration level. So often we think about tests as “defenses” to “protect” code from unwanted errors. And that is _somewhat_ the case, but in reality what you’re actually doing is building out a toolset around understand what your code does. And I would basically contend that if you haven’t written tests, you probably only have a vague and abstract understanding of your code.
-
-Rather than waiting to see what the output tells you, tests let you know upfront what’s going on underneath the code. You can articulate to very specific levels of understanding:
-
-- The test fails if a phone number isn’t provided
-- The test succeeds if a phone number is provided
-- The test fails if a phone number has an incorrect format
-
-Tests help you dial in exactly what’s going on, and help, as a developer, you to create code that creates very clear expectations for its callers. You no longer have to run the system in order to build a mental model of its operation, you can run the tests and understand how it builds and shapes what it’s trying to accomplish.
-
-### Tests Aren’t Enough
+When you make a change to a piece of well tested code and a unit test starts failing, it’s not necessarily true that that test prevented a bug from going out. But it is true that the unit test failure helped the other developer (maybe future you) have a clearer picture of how the developer who wrote or maintained it was expecting it to operate. It creates a picture that’s broader than the scope of a single execution and starts helping us paint the boundaries of the system. As a result we get stabler code, but we also get faster development and a better development experience.
 
 So tests are step one, the next phase of this is code that’s made it out to production. Tests are still limited by your imperfect understanding of how your functionality might work. As you scale, you’re still dependent on pings and pongs from other users/teams to tell you whether or not stuff’s going wrong.
 
-And this is where monitoring comes in. Monitoring will similarly require you to change the way you code because monitoring systems are often built around standardized ways of thinking. If you, for example, catch errors all over the place, your tests might pass but your monitoring system might be useless because it can’t give you a signal on when those occur. So you have to refactor your REST routes to use default error catching, and in the course actually rethink the UX a bit. This, just like the tests can feel strange, unsettling, and even limiting.
+#### Seeing with Monitors
+
+Monitors, like tests, are a terrifying level of abstract that requires a similar shift in how we think about our code. Instead of seeing it as a user experience or even a set of requirements, now we see it as a set of numbers, lines and dots on a screen. We can see things like execution time, errors, sequel queries. It’s pulling us away from the direct user experience which we’re comfortable with and towards further abstractions. But just like lines and shadows these abstractions help get us closer as engineers to maintaining and building solid codebases.
 
 I’ve started trying this method that I call **Errors that cause joy**. It can seem absolutely wild to think that monitoring could cause joy, but its fundamental purpose is to support developers. As a developer, you basically have two options:
 
@@ -68,7 +57,32 @@ There’s nothing worse than being on a support cycle and showing up Monday morn
 
 Waiting for user reports to let you know something has gone wrong is the worst. And if you don’t have monitoring in place, that is absolutely where you are. Monitors don’t just tell you when things go wrong. They give you a window into how your system is operating. Early errors absolutely cause joy by giving you clear insight into how and when things occur.
 
-### Back to Baggage Claims
+## Changing How We Write Code
+
+_DALL-E rendering of the ui of a monitoring system that points to the exact location in a codebase where a bug is_
+![DALL-E rendering of the ui of a monitoring system that points to the exact location in a codebase where a bug is](/images/DALLE-ui-of-where-bug-is.png)
+
+The reason I want to compare tests and monitors to drawing is because at the end of the day our goal in both is to accomplish the objective. To create a cohesive experience for our users. And we still have to keep our eyes on that level of understanding. It doesn’t matter if we draw the best lines or write the best tests if the whole isn’t coherent and meaningful. But what the techniques of observation and testing do is help give us tools to improve the scope of our sight, to create a richer experience for a wider variety of people.
+
+A former boss came up with an excellent metaphor for this sort of development, **sick is worse than dead**. It’s the concept that in a pre-testing and pre-monitoring mindset, we’ll end up with functions that handle a whole plethora of use cases without really failing, which means users don’t see errors. But they also won’t really succeed, which leaves devs with a lot of work to suss out what’s going on and to try to fix it.
+
+### Adding Tests
+
+Often when we start writing tests against a mature codebase it can feel incredibly painful. Flexible functions with a variety of outputs are incredibly difficult to test. If the shape of an object in a response can vary based on the types of input, the optimal outcome is to write tests for each of those use cases. But enumerating them out is so hard.
+
+Tests actually require that we start writing different types of functions that operate in a much smaller scope, so we can use tests to explain and understand them. And this can feel strange, uncomfortable and limiting, because we can’t just write a thing to do a thing, we have to write a function that can be tested.
+
+Tests are limiting in that way because they mean the code we write has a much narrower scope. But within that scope we have a higher trust that what it’s telling us is something it truly believes.
+
+### Adding Monitors
+
+Similarly when adding monitors, I’ve seen lots of times where instead of letting a request fail we’ll catch the error, log it and then move on, with the hope that the user wasn’t impacted and a dev can go back and clean the issue. But handling errors this way kneecaps our monitoring systems’ abilities to actually tell us what’s going on and makes it harder for us as developers to improve our systems over time.
+
+Like tests this can feel strange, limiting and uncomfortable. Instead of letting a user simply continue on we’re increasing the chance that they’ll get blocked and that it will be an immediate negative experience. But the tradeoff is that by letting these issues surface we can catch them more quickly, before they impact more people, and before they can spiral out to downstream issues causing challenges that are increasingly hard to resolve meaningfully.
+
+Systems that are built to be monitored well have better client contracts, better developer experiences, and ultimately a better long term user experience because the developers who support these systems have a much clearer image of the code they’re trying to support.
+
+## Back to Baggage Claims
 
 Part of the reason I find the metaphor for baggage systems in airports so helpful is that unlike websites, you would never try to analyze the health of the system based on simply trying to send one bag through. At best it’s an incredibly limited way of seeing what’s going on in one use case, and at worst it gives you a biased perspective on what your users experience.
 
