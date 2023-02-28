@@ -88,3 +88,12 @@ Tanya calls out the different flavors of work that a staff engineer can take on.
 ## A Good Resource
 
 If I had a recommendation, I would probably say similar to Camille Fournier’s [The Manager’s Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897?crid=20KUJFVB7YJBE&keywords=camille+fournier&qid=1677557149&sprefix=camille+fournier,aps,199&sr=8-3), it’s probably best to take a section or a couple of chapters at a time that feel most applicable to you and your role, and focus on those, instead of trying to read it all in one go. But the writing, level of research, and insight is consistent throughout the book, and it’s one a plan to come back to from time to time.
+
+### Epilogue: Sections I Would Focus on
+
+If you have checked the book out, or on loan from friend, here's what I would focus on, ranked:
+
+Chapter 3: Creating the Big Picture (Pages 69-111)
+Chapter 8: Good Influence at Scale (253 - 284)
+Chapter 1: What Would You Say You Do Here (Pages 3-30)
+Chapter 4: Finite Time (115 - 150)
