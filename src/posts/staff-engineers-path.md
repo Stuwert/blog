@@ -1,5 +1,5 @@
 ---
-title: A Review of The Staff Engineer's Path
+title: A (Deeply Incomplete) Review of The Staff Engineer's Path
 date: 2023-02-28
 tags: [staff-plus-engineering, hypotheses, leadership, book-review]
 description: My thoughts on The Staff Engineer's Path by Tanya Reilly.
@@ -8,13 +8,15 @@ status: published
 socialImage: /images/DALLE-pencil-sketch-map-road.png
 ---
 
-# A Deeply Incomplete Review of A Staff Engineer’s Path
+Today I'm going to spend some time reviewing [_The Staff Engineer’s Path_](https://www.amazon.com/Staff-Engineers-Path-Tanya-Reilly-ebook/dp/B0BG16Y553?crid=7KIVDAA5UEB0&keywords=staff+engineer's+path&qid=1677557326&sprefix=staff+engineer's+pat,aps,152&sr=8-1) by Tanya Reilly.
 
-I am quite sympathetic to the myriad of competing challenges responsible in writing a book. Especially one that can ostensibly become one of the standard-bearers of the literature on the topic.
+![The Cover of The Staff Engineer's Path by Tanya Reilly](/images/staffpath.jpeg)
 
-I found [_The Staff Engineer’s Path_](https://www.amazon.com/Staff-Engineers-Path-Tanya-Reilly-ebook/dp/B0BG16Y553?crid=7KIVDAA5UEB0&keywords=staff+engineer's+path&qid=1677557326&sprefix=staff+engineer's+pat,aps,152&sr=8-1) by Tanya Reilly to be at once a thoroughly researched and excellently sourced reference, an overwhelming tome, and a snappy read with a number of easy to apply insights.
+I am quite sympathetic to the myriad of competing challenges responsible in writing a book. Especially one that can ostensibly become one of the standard-bearers of the literature on the topic. You're ostensibly trying to make a thing that was designed to be read front to back, while also taking into account other strange use cases like reference material, people who will drop in, and other people who will reference its existence without ever having seen the cover.
 
-I’m going to try to break it out into the different components that I found the most salient, by grouping them into affirming, novel, expansive, and challenging to implement.
+I also appreciate anyone who can take on what being a "Staff Engineer" means. It broadly means you're "important" (either through earned value or title inflation), and it also means you're "different" than other engineers in some specific way (either through earned value or title inflation). So the role is weird and I appreciate anyone who tries to take it on in a thorough and nuanced way. I found it to be at once a thoroughly researched and excellently sourced reference, an overwhelming tome, and a snappy read with a number of easy to apply insights.
+
+I found it to be at once a thoroughly researched and excellently sourced reference, an overwhelming tome, and a snappy read with a number of easy to apply insights. I’m going to try to break it out into the different components that I found the most salient, by grouping them into affirming, novel, expansive, and challenging to implement. This is meant as less of a direct critique and more of a "here's how I'm thinking about the book". My assumption is that a good portion of this is influenced based on how relatively new as a staff engineer I am. I suspect for some readers the things I found insightful might seem rather obvious, and that's ok!
 
 ## Affirming
 
@@ -22,7 +24,7 @@ These were things that I already knew (or at least already thought I knew) but i
 
 ### Ask obvious questions, make the implicit explicit
 
-This is a skill I think I’m particularly good at, and it was nice to hear that it’s something that might be considered valuable as a staff engineer. The point Tanya makes about these is that often there’ll be a ton of implicit assumptions about the way things are. Rather than letting those lie, it’s important to jump in and get them documented so that they can be understood, and potentially challenged. She says, “It’s better to be wrong than vague”.
+This is a skill I think I’m particularly good at, and it was nice to hear that it’s something that might be considered valuable as a staff engineer. The point Tanya makes about these is that often there’ll be a ton of implicit assumptions about the way things are. Rather than letting those lie, it’s important to jump in and get them documented so that they can be understood, and potentially challenged. She says, “It’s better to be wrong than vague” and it's good advice. It's way better to say something specific and be told you're wrong, so your team can succeed, than to say something vague, technically not be wrong, and have your team languish.
 
 ### People around you raising your game
 
@@ -49,9 +51,11 @@ _A Dall-E rendering of: A pencil sketch of someone looking at a map of a road_
 
 ## Novel
 
+These are concepts I found genuinely new or exciting, putting together ideas I hadn't even considered previously.
+
 ### Different scales of staff engineering
 
-I really appreciated Tanya calling out the varying levels of reporting that a Staff+ Engineer could direct at. From a line manager all the way up to a VP. In one discussion I had with a former boss, he thought this sort of progression helped show that individual experience scaled up equivalently with management growth.
+I really appreciated Tanya calling out the varying levels of reporting that a Staff+ Engineer could direct at. From a line manager all the way up to a VP. In one discussion I had with a former boss, he thought this sort of progression helped show that individual experience scaled up equivalently with management growth. But, I found it helpful to understand how reporting low and high has different benefits and can change the way you interact with an organization, especially as it relates to your personal and professional goals.
 
 She also assigned the words “reporting high” and “reporting low” for the various ways of thinking about these things. It was really helpful to get a picture of the pros and cons of each level of reporting. The higher you get, the more expansive your scope but the fuzzier your view, and the lower you get, the narrower your scope but the more sharp your view.
 
