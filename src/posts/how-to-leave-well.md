@@ -8,7 +8,9 @@ status: draft
 socialImage: /images/DALL-E-man-waving-goodbye.png
 ---
 
-Aside: The impetus for this article is my current experience switching teams in my role, but I thought it would be a good time to reflect on my other experiences with leaving, good and bad. **As of this writing I am still quite happily employed.**
+<aside> 
+The impetus for this article is my current experience switching teams in my role, but I thought it would be a good time to reflect on my other experiences with leaving, good and bad. <b>As of this writing I am still quite happily employed and have no intention of leaving anything.</b>
+</aside>
 
 There are lots of reasons you might end up leaving a team. Maybe you’re leaving a company for a better opportunity, maybe your current role isn’t working out, maybe you’re staying at the company but leaving for a new role or a new part of the company. All of these moments can be incredibly emotionally charged which makes navigating them especially challenging.
 
