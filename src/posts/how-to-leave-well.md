@@ -20,6 +20,8 @@ There are three responses during this process
 - Things You Need to Come to Terms With
 - Things To Finish As You Leave
 
+The thing I want to re-iterate is this dichotomy is what makes it hard to understand how to leave a team well. The things that your emotions will push you to do are not aligned with the things that will help support your teammates in the best possible way. Coming to terms with the challenges will help you leave a more lasting impact, and make it more likely that they appreciate the work you did and how you left.
+
 ## Things to Come to Terms With
 
 ### You Just Have Like… Way Less Time Than You Think You Do
