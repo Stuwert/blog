@@ -8,11 +8,11 @@ status: published
 socialImage: /images/DALL-E-man-waving-goodbye.png
 ---
 
-<aside> 
-The impetus for this article is my current experience switching teams at my current employer, (along with my observational experience of the amount of shifting and changing in the tech industry) but I thought it would be a good time to reflect on my other experiences with leaving, good and bad. <b>As of this writing, I am still quite happily employed.</b>
-</aside>
+There are plenty of reasons you might end up leaving a team. Maybe you’re leaving a company for a better opportunity, maybe your current role isn’t working out, maybe you’re staying at the company but leaving for a new role or a new part of the company. All of these moments can be incredibly emotionally charged, which makes navigating them especially challenging.
 
-With all the turmoil in the tech industry, and with my own lateral move within the company, it’s given me some impetus to reflect on the practicality and emotionality of leaving a team. There are plenty of reasons you might end up leaving a team. Maybe you’re leaving a company for a better opportunity, maybe your current role isn’t working out, maybe you’re staying at the company but leaving for a new role or a new part of the company. All of these moments can be incredibly emotionally charged, which makes navigating them especially challenging.
+<aside class="content__aside"> 
+The impetus for this article is my current experience switching teams at my current employer, (along with my observational experience of the amount of shifting and changing in the tech industry) which got me thinking about how hard leaving (in any context) is and what leaving <i>well</i> might look like. <b>As of this writing, I am still quite happily employed.</b>
+</aside>
 
 And what’s weird about leaving a team is that it’s one of the few times when our emotional responses to situations put us out of sync with what is best for us and for others around us. I think that, for the most part, what feels like the right decision during your employment will be the appropriate decision. There are management hacks, tips, and tricks to nudge ourselves to be more efficient, but mostly how we feel and what we should do are pretty well aligned.
 
