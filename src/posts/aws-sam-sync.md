@@ -30,9 +30,9 @@ Figured before we went further I should just link directly to the SAM Sync docs:
 
 ## Big Picture Goal
 
-My big picture goal is to test out whether or not `sam sync` is a viable solution for testing and checking development if I wanted to build out a pattern that's a direct connection from Appsync->DynamoDB
+My big picture goal is to test out whether or not `sam sync` is a viable solution for testing and checking development if I wanted to build out a pattern that's a direct connection from Appsync->DynamoDB.
 
-https://levelup.gitconnected.com/slashing-serverless-api-latency-with-appsync-javascript-resolvers-8aa5ae6a9ac0
+[The theory is that encapsulating more logic in a appsync resolver, instead of a lambda will remove cold starts entirely and allow you to easily encapsulate logic.](https://levelup.gitconnected.com/slashing-serverless-api-latency-with-appsync-javascript-resolvers-8aa5ae6a9ac0)
 
 Could I say... use sam sync to quickly build out a new set of resolvers without much lift? Or... spin up a quick interface if I wanted to test out an _interactive_ front end against it?
 
