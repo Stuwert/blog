@@ -11,7 +11,7 @@ socialImage: /images/DALL-E-man-waving-goodbye.png
 There are plenty of reasons you might end up leaving a team. Maybe you’re leaving a company for a better opportunity, maybe your current role isn’t working out, maybe you’re staying at the company but leaving for a new role or a new part of the company. All of these moments can be incredibly emotionally charged, which makes navigating them especially challenging.
 
 <aside class="content__aside"> 
-The impetus for this article is my current experience switching teams at my current employer, (along with my observational experience of the amount of shifting and changing in the tech industry) which got me thinking about how hard leaving (in any context) is and what leaving <i>well</i> might look like. <b>As of this writing, I am still quite happily employed.</b>
+The impetus for this article is my current experience switching teams at my current employer, (along with my observational experience of the amount of shifting and changing in the tech industry) which got me thinking about how hard leaving (in any context) is and what leaving <i>well</i> might look like. <strong>As of this writing, I am still quite happily employed.</strong>
 </aside>
 
 And what’s weird about leaving a team is that it’s one of the few times when our emotional responses to situations put us out of sync with what is best for us and for others around us. I think that, for the most part, what feels like the right decision during your employment will be the appropriate decision. There are management hacks, tips, and tricks to nudge ourselves to be more efficient, but mostly how we feel and what we should do are pretty well aligned.
@@ -23,6 +23,10 @@ There are three responses during this process that I’m going to focus on:
 - Things You Need to Come to Terms With
 - Things You Probably Care About, But Shouldn’t
 - Things To Finish As You Leave
+
+<aside class="content__aside">
+Nothing I'm talking about here is trying to change or lessen the work you've done for hte team you're leaving. The work you do and have done is important. I want to reinforce that all of the good work you've done is already baked in. You don’t need to take on anything drastic in the remaining time in order to prove that what you did valuable. You can focus on the task at hand: leaving the team well.
+</aside>
 
 ## Things to Come to Terms With
 
@@ -80,7 +84,7 @@ Are there specific meetings you want to have to formally hand off work? Are ther
 
 I would recommend spending a bunch of time thinking about the dates and times that various moments have to happen, and getting good agreements with the leaders on your team as to why and when they’ll occur. That way you have a clear plan.
 
-### Quit early
+### Be Done Early
 
 The one job I felt I had a semi-successful exit from, I was done a week early and was sitting on my hands. I felt really silly for doing this, but in retrospect it was actually my most successful exit. Like I was taking up unnecessary space. But what it actually meant is that there was enough slack in the system for the team not to have the pressure of my leaving. I was around to answer any questions, but wasn’t critical to having those questions answered. It’s an example of [Celebrating a Successful Landing](https://www.urback.net/posts/a-deeply-incomplete-review-of-the-staff-engineer-s-path/). The success wasn’t that a bunch of stuff got wrapped up, the success was that the transition occurred without lots of upheaval or chaos.
 
