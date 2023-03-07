@@ -64,7 +64,7 @@ The reality is, that either you’ve done a good enough job communicating and pa
 
 Your priorities aren’t the team's priorities (even when you were there). This falls pretty closely in line with [Let It Fail,](https://www.maxcountryman.com/articles/let-it-fail) where the reality is that if you were heroically holding up some aging system, you probably weren’t doing your team or yourself any favors. Your leaving is most likely not going to cause an immediate collapse, but is much more likely to cause some pain that either gets resolved or carries on. It’s a much less exciting outcome (especially if you, like me, have an attachment to feeling important), but it’s the truth.
 
-Instead of over documenting or fretting, use the two weeks to emotionally let go of those things you’ve cared about. Talk through the situation with your coworkers and management, and support them in the situations where they ask for help, but don’t feel the need to push all of your knowledge out. The team will find a way.
+While this might sound depressing, it should also be freeing. You don't need to take herculean action in your last 2 weeks, just point out potential gaps and let the people that remain take care of it. Instead of over documenting or fretting, use the two weeks to emotionally let go of those things you’ve cared about. Talk through the situation with your coworkers and management, and support them in the situations where they ask for help, but don’t feel the need to push all of your knowledge out. The team will find a way.
 
 ## Things to Finish
 
