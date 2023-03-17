@@ -1,5 +1,5 @@
 ---
-title: "What The Last Jedi Can Teach Us About Mentorship: My Favorite Line from Yoda"
+title: What The Last Jedi Can Teach Us About Mentorship
 date: 2023-03-16
 tags: [engineering, mentorship, leadership]
 description: Why a line from The Last Jedi has one of my favorite lines from mentorship and leadership.
