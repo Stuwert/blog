@@ -57,7 +57,7 @@ There is nothing more exciting that watching someone you've been teaching apply 
 _From Dall-E: a visual representation of the transfer of knowledge between a teacher and a pupil rendered like concept art from the original star wars_
 ![From Dall-E a visual representation of the transfer of knowledge between a teacher and a pupil rendered like concept art from the original star wars](/images/Dalle-E-knowledge-transfer.png)
 
-The line is also a good north star. It asks whether you're behaving like someone who is pushing the people you interact with beyond your limitations, if you're holding them captive and reinforcing their need for you to be around. In that way it's a vision of servant leadership that is sincere and not bullshit.
+The line is also a good north star. It asks whether you're behaving like someone who is pushing the people you interact with beyond your limitations, or if you're holding them captive and reinforcing their need for you to be around. In that way it's a vision of servant leadership that is sincere and not bullshit.
 
 ## The Human Side of Work Matters
 
@@ -67,4 +67,4 @@ But, to flatten it down to something so simple is insulting. Mentorship is fraug
 
 But, mentorship is so rewarding is that it enriches our lives in ways that are challenging and personally meaningful, regardless of the career outcome. It really is magic. It takes all the knowledge that you’ve built up, and it doesn’t just hand it to someone else in some sort of additive transaction. It can slingshot that person, and in doing so, lift everyone around you. It will also enrich your lives in the way that gives it lasting meaning, beyond the daily positive and negative outcomes.
 
-In my last [article](/posts/go-give-someone-feedback/), I argued that you should give feedback (in part) because it would be good for your career. I don’t think you should think about your career when you mentor. You should mentor because it’s a rare magic, and good, and beneficial for society if you try to do it more, even if you occasionally fail.
+In one of my last [:articles](/posts/go-give-someone-feedback/#1TheSelfishReason), I argued that you should give feedback (in part) because it would be good for your career. I don’t think you should think about your career when you mentor. You should mentor because it’s a rare magic, and good, and beneficial for society if you try to do it more, even if you occasionally fail.
