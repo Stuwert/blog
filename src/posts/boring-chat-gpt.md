@@ -10,6 +10,10 @@ socialImage: /images/DALL-E-speech-calvin-hobbes.png
 
 Here’s my obligatory ChatGPT article. It’s less about the space-agey stuff and more about 5 immediate consequences I can think of as a software engineer. These are small, not earth-shattering questions I have that might become completely obsolete in like a week, but, it’s where my head is at right now.
 
+<aside class="content__aside">
+(No I did not ask ChatGPT the questions, this is isn't a gimmick)
+</aside>
+
 _cartoon bubbles of two people communicating like in calvin and hobbes_
 ![cartoon bubbles of two people communicating like in calvin and hobbes](/images/DALL-E-speech-calvin-hobbes.png)
 
