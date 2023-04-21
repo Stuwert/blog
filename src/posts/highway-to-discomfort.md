@@ -11,7 +11,7 @@ tags:
 description: Discomfort is an important but often under-discussed area of how individual contributors can help lead their teams.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-socialImage: /images/disagreeing-productively.png
+socialImage: /images/Sweet_Spot.jpg
 ---
 
 Discomfort is a feeling I’ve experienced a fair amount of in my technology career. There are tons of types of discomfort: discomfort of being wrong, discomfort of learning a new technology, discomfort of trying to accomplish something you didn’t think you could. But social discomfort is something I don’t see talked much about from a first person perspective. I believe especially for individual contributors who take on leadership responsibilities, being someone who appropriately generates discomfort within themselves and their team is an important way to help move your team forward.
