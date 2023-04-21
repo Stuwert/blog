@@ -1,5 +1,5 @@
 ---
-title: "Highway To The Discomfort Zone: promoting constructive conflict as an individual contributor"
+title: "Highway To The Discomfort Zone: Promoting constructive conflict as an IC"
 date: 2023-04-21
 tags:
   [
