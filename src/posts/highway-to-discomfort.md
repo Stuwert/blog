@@ -8,7 +8,7 @@ tags:
     individual contributor leadership,
     team communication,
   ]
-description:
+description: Discomfort is an important but often under-discussed area of how individual contributors can help lead their teams.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/disagreeing-productively.png
