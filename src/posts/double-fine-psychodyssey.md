@@ -10,7 +10,7 @@ socialImage: /images/DALL-E-2023-04-12-being-good-leader.png
 
 I’ve been making my way through the _Double Fine Psychodyssey_ series. It’s a THIRTY TWO episode documentary series looking at the SEVEN-YEAR making of _Psychonauts 2_. It’s an absolute whale of a show, and also probably some of the best art produced this year, and maybe the best look at how creative and tech work actually happens.
 
-So many parts hit home, and I’d so so so recommend you just go watch it. But here were a few parts that especially stuck out to me.
+So many parts hit home, and I’d so so so recommend you [just go watch it](https://youtu.be/AKoy_KMVIyU). But here were a few parts that especially stuck out to me.
 
 [https://youtu.be/AKoy_KMVIyU](https://youtu.be/AKoy_KMVIyU)
 
