@@ -31,6 +31,9 @@ _Dall-E: a sharpie sketch of a team of people at a whiteboard who are disagreein
 
 How can you tell if you’re on a team that’s in a healthy space when it comes to psychological safety and task based conflict? I’ve found that the clearest negative indicator is silence. If teams aren’t sharing direct, specific criticism, or voicing(/writing) disagreements, it tends to be an indication that there’s not enough productive discomfort going on.
 
+_Finding the sweet spot of discomfort_
+![The Sweet Spot of Discomfort](/images/Sweet_Spot.jpg)
+
 What’s interesting is these lack of feedback situations can occur for wildly divergent reasons. A team might be socially content and not want to share constructive feedback because it will disrupt a feeling of social harmony. Or, a team might be in an incredibly toxic situation socially/emotionally and not want to speak up for fear of personal or emotional dismissal or retribution. Distinguishing between these types of conflicts can be challenging.
 
 ## Personal Opinions
@@ -46,6 +49,9 @@ The short answer, is, you should try to push through your discomfort and share y
 ## How to Push Through
 
 I know people say you should be more assertive and apologize less. But I’m [pretty skeptical that apologizing is ultimately a net negative](https://www.washingtonpost.com/wellness/2023/04/06/saying-sorry-apologize-too-much/?wpsirc=nl_wellbeing&carta-url=https://s2.washingtonpost.com/car-ln-tr/39a316f/642f4f4953816d1ce091c732/5c5540bc9bbc0f17b42ba0c5/18/41/642f4f4953816d1ce091c732&wp_cu=27294e89719f15b3296360a4317036f4%7C80E4B9A16DAC5289E0530100007FC4FE). If, especially at the start, you need to preface something with **sorry** in order to feel comfortable pointing something out, you should say sorry. The net outcome of the insight you have to share after the sorry is worth way more than the cost saying nothing might have.
+
+_It's important to remember positive/negative team conditions oscillate over time_
+![Sketched Graph of Team Dynamics Over Time](/images/Over_Time.jpg)
 
 But, here are a list of framing techniques I’ve used to help push through discomfort I’ve felt when trying to share or open up with a team:
 
