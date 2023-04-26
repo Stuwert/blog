@@ -2,8 +2,8 @@
 title: "Konkan Coast Pirate Solutions: My Favorite Game of 2023 So Far"
 date: 2023-04-25
 tags: [games, computer-games, puzzle-games]
-description:
-permalink: posts/{{ oldTitle | slugify }}/index.html
+description: A bit of puzzly goodness in video game form.
+permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/games/boat-pushing-box-grid.png
 ---
