@@ -10,7 +10,7 @@ socialImage: /images/DALL-E-Cloud-CD.png
 
 # What’s the Difference Between the AWS CDK and the SDK?
 
-This is a thought I had the other night as I was messing around with [DynamoDB](/posts/dynamodb-adventure-stepping-into-nosql-storage-land/).
+This is a thought I had the other night as I was messing around with [DynamoDB](/posts/dynamodb-adventure-stepping-into-nosql-storage-land/) that trying to differentiate (specifically) what the AWS SDK and CDK are for is something of a challenge.
 
 The comparisons between the two seem rather obvious. They’re both packages that wrap api commands in code that make changes to services within the AWS sphere. If I’m being kind to myself I probably intellectually understood the difference but it didn’t really click until I had the thought that I was using the SDK to make direct changes to a Dynamo instance on my local computer, but I absolutely wouldn’t do that with the CDK unless I had spun up some sort of provider like [Localstack](https://localstack.cloud/) to emulate the entire AWS space.
 
