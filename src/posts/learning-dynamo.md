@@ -1,5 +1,5 @@
 ---
-title: Learning about DynamoDB
+title: DynamoDB Adventure, Stepping Into NoSQL Storage Land
 date: 2023-05-05
 tags: [serverless, aws, aws-sam, local-development, dynamodb, nosql]
 description: Discover the DynamoDB concepts that transformed how I think about NoSQL and data storage in general.
