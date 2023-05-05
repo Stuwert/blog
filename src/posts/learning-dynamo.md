@@ -22,7 +22,7 @@ It wasn’t until I started reading [_The DynamoDB Book_](https://dynamodbbook.c
 
 My knowledge of this is still super thin. I’m sharing this in the hope that some of my _very early learnings_ will help other people as they learn about DynamoDB.
 
-_A visualization of the abstraction of a nosql database as a metaphorical representation of a physical thing in the style of a 14th century oil painting_
+_DALL-E: A visualization of the abstraction of a nosql database as a metaphorical representation of a physical thing in the style of a 14th century oil painting_
 ![A visualization of the abstraction of a nosql database as a metaphorical representation of a physical thing in the style of a 14th century oil painting](/images/DALL-E-Dynamo-As-14th-century.png)
 
 ## Things That Changed How I Think
