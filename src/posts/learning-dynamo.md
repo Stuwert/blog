@@ -8,8 +8,6 @@ status: published
 socialImage: /images/DALL-E-Dynamo-As-14th-century.png
 ---
 
-# Writing
-
 The first time I heard about DynamoDB it was in the context of the benefits of going fully serverless. And to be honest I didn’t understand why someone would want to do any of that, outside of some specific dogma for DynamoDB.
 
 I decided to try it out in a new project, because it seemed like a simple document datastore would be good enough for the project, and it could be good to learn.
