@@ -5,7 +5,7 @@ tags: [serverless, aws, local-development]
 description: How do I run a serverless function locally?
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-popularity: 55
+popularity: 191
 ---
 
 The first step in my journey to [recreate an old server of mine](https://github.com/play-this-tonight/games-api) in lambdas starts with getting a local development environment functioning.

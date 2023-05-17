@@ -6,7 +6,7 @@ description: My strongest opinions about becoming a staff engineer
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL·E-humble-engineer.png
-popularity: 39
+popularity: 57
 ---
 
 ## Becoming a Staff Engineer

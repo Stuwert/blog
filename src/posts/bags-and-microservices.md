@@ -6,6 +6,7 @@ description: Using an airport baggage claim system as a metaphor for distributed
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/serverless/DALL·E2023-01-27-birds-eye-baggage-system.png
+popularity: 36
 ---
 
 With the move to “the cloud” and “distributed systems” it’s gotten harder to come up with a mental model for talking to the not-engineers in my life about what I do. I also think it’s harder as an engineer to visualize what’s going on under the hood.

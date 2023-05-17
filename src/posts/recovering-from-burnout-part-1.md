@@ -6,6 +6,7 @@ description: In which I start to recount my journey into realizing I was burnt o
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL·E-2023-02-03-00.24.42-burnout-board-game.png
+popularity: 40
 ---
 
 ### What I’m Trying With All of This

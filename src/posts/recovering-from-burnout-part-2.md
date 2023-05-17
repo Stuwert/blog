@@ -6,6 +6,7 @@ description: In which I start to recount my journey into realizing I was burnt o
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/DALL·E-2023-02-13-00.24.02-runner-celebrating-at-finish-line.png
+popularity: 46
 ---
 
 This is part 2 (and conclusion) of my series on burnout. [You can find my previous article here.](/posts/the-art-of-self-preservation-part-1-recognizing-i-was-burnt/)
