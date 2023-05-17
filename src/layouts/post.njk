@@ -23,44 +23,29 @@ layout: base.njk
   </header>
 
   <main class="post__content">
-    {{ content | safe }}
+    {% set aboveContent = content | split(0) %}
+    {% set belowContent = content | split(1) %}
+    {{ aboveContent | safe }}
+    <aside class="post__aside">
+      <h4>If You're Enjoying This, You Might Also Like</h4>
+
+      {% set relatedPosts = collections.posts | removeSelf(title) | status('published') | filterTags(tags, ["posts"]) | reverse | getFirstN(3) %}
+
+      <ul class="post-list">
+      {% for post in relatedPosts %}
+        <li class="post-list__item">
+          <h3 class="post-list__title">
+            <a class="inline-suggestion"  href="{{ post.url }}">{{ post.data.title }}</a>
+          </h3>
+
+          <p class="post-list__meta">{{ post.data.description }}</p>
+        </li>
+      {% endfor %}
+      </ul>
+      <iframe class="email-signup" src="https://journeytothecore.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    </aside>
+
+    {{ belowContent | safe }}
+    {# {{ split-content content "<h2>Test</h2>" | safe }} #}
   </main>
-
-  
-
-  <aside class="post__aside">
-    {% if 'serverless' in tags %}
-      <p>If you enjoyed this article, take a look at my other explorations in the <a href="/serverless">serverless space!</a></p>
-    {% endif %}
-
-    <h4>You Might Also Like</h4>
-
-    {% set relatedPosts = collections.posts | status('published') | filterTags(tags, ["posts"]) %}
-
-    <nav class="post__pagination">
-      {%- set nextPost = relatedPosts | getNextCollectionItem(page) %}
-      {%- if nextPost %}
-
-        <a href="{{ nextPost.url | url }}">
-          <span>←</span>
-          <span>{{ nextPost.data.title }}</span>
-        </a>
-
-      {% endif %}
-
-      {%- set previousPost = relatedPosts | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}
-
-        <a href="{{ previousPost.url | url }}">
-          <span>{{ previousPost.data.title }}</span>
-          <span>→</span>
-        </a>
-
-      {% endif %}
-
-    </nav>
-  </aside>
-  <p>Want to get a monthly recap of what I've been working on?</p>
-  <iframe src="https://journeytothecore.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-
 </article>

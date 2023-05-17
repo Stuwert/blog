@@ -97,6 +97,14 @@ module.exports = function (eleventyConfig) {
     return splitContent[idx];
   });
 
+  eleventyConfig.addFilter("removeSelf", (posts, title) => {
+    return posts.filter((post) => post.data.title !== title);
+  });
+
+  eleventyConfig.addFilter("getFirstN", (posts, number) => {
+    return posts.slice(0, number);
+  });
+
   eleventyConfig.addFilter("getUnorderedListContent", (content) => {
     if (!content) return content;
 

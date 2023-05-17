@@ -23,9 +23,19 @@
 
 .post__aside {
   margin-top: 2rem;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  border-top: 1px solid rgba(230, 230, 230, 1);
 }
 
 .post__aside h4 {
+  text-align: center;
+}
+
+.post__aside h3 {
+  text-align: center;
+}
+
+.post__aside p {
   text-align: center;
 }
 

@@ -1,9 +1,9 @@
 ---
-title: I Made a Game With ChatGPT, Here’s what happened next
+title: I Made a Game With ChatGPT, Here’s What Happened Next
 author: Stuart Urback
 date: 2023-05-16
 description: What I learned trying to integrate ChatGPT into a single player web game.
-tags: [games, computer-games, chatgpt, ai, serverless]
+tags: [game-design, chatgpt, ai, serverless]
 status: published
 socialImage: /images/Dall-E-2023-05-16-board-game-code.png
 ---
@@ -65,6 +65,8 @@ I suspect there will be two primary critiques my conclusions based on this appro
 2. I'm not using ChatGPT the "right way".
    1. As many tutorials will explain, the correct way to "use" ChatGPT is to throw it into some sort of chat based interface. I'm just still completely skeptical that this is the way most of these things will function. I think prompts will ultimately become wholly overrated as models get "smarter" and as the best prompts are agreed on and able to be re-used effectively. The most exciting use of AI I've seen thus far still comes from Copilot where it acts as a sort of superpowered autocomplete, without requiring me to jump out of my flow to actually function.
    2. Setting a UI in front of this might be unnatural, but in the flow of the game "categorizing books", I don't think asking people to type out a chat based prompt particularly makes much sense, and much of the benefit of the chat interface is that it means that people get to do the heavy lifting of figuring out and ignoring the hallucinations.
+
+<hr>
 
 ## What I Realized
 
