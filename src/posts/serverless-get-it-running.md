@@ -190,6 +190,8 @@ The first thing I tried didn’t give me anything useful back. I threw a `consol
 
 Great! That worked.
 
+<hr>
+
 ### Using AWS invocation
 
 Now let’s try with `aws` …

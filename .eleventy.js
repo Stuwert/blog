@@ -26,6 +26,14 @@ const manifest = isDev
     }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: "utf8" }));
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
@@ -101,7 +109,11 @@ module.exports = function (eleventyConfig) {
     return posts.filter((post) => post.data.title !== title);
   });
 
-  eleventyConfig.addFilter("getFirstN", (posts, number) => {
+  eleventyConfig.addFilter("getFirstN", (posts, number, randomize = true) => {
+    if (randomize) {
+      return shuffleArray(posts).slice(0, number);
+    }
+
     return posts.slice(0, number);
   });
 
