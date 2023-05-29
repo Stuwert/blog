@@ -26,3 +26,22 @@ const inlineSuggestion = document.querySelector(".inline-suggestion");
 inlineSuggestion.addEventListener("click", function () {
   fathom.trackGoal("D4PCTK85", 0);
 });
+
+const endOfPost = document.querySelector("#end-of-post");
+
+function reachedEndOfPost() {
+  const offset = window.innerHeight;
+  const pageHeight = document.body.scrollHeight;
+  const fudge = offset / 3;
+  let hasVisited = false;
+
+  return () => {
+    const topOfPage = window.scrollY;
+    if (topOfPage + offset >= pageHeight - fudge && !hasVisited) {
+      hasVisited = true;
+      fathom.trackGoal("GBGTUA3P", 0);
+    }
+  };
+}
+
+window.addEventListener("scroll", reachedEndOfPost());
