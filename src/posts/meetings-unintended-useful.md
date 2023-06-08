@@ -74,6 +74,8 @@ This might seem like a breathtakingly obvious corollary to the previous point, b
 
 If we go back to our previous examples (killing a project and building shared understanding), you might be on the lookout for something like vocabulary to suggest that work is still progressing or the priorities that made that work necessary are still present. And if you’re looking at shared understanding you might be on the lookout for confusion or soft yesses, or people who are agreeing to understanding but unable to describe the concept on their own.
 
+<hr>
+
 ## Tangential Outcomes are Great
 
 I’m worried by reading this you’ll hear that unexpected problems are bad. I’m absolutely not. If you get bonus conclusions out of a meeting that’s awesome. Or if you decide that a meeting should be unstructured time to allow for connections that’s also great. What you shouldn’t be comfortable with is the idea that you brought people together for objective A and you accomplished objective B instead that that’s a positive outcome, especially for a large or recurring meeting. It’s not. It means you have a lot of smart thoughtful people who are good at making the best of a challenging situation.
