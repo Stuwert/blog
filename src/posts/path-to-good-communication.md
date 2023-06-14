@@ -27,8 +27,8 @@ In all of these situations it's easy to imagine a clever, suave, well-spoken ind
 
 ## What is "Bad" Communication
 
-_DALL-E: Claymation of someone in a meeting saying something other people cannot understanding_
-![claymation of someone in a meeting saying something other people cannot understanding](/images/DALLE-2023-06-14-claymation-meeting.png)
+_DALL-E: Claymation of someone in a meeting saying something other people cannot understand_
+![claymation of someone in a meeting saying something other people cannot understand](/images/DALLE-2023-06-14-claymation-meeting.png)
 
 Before we get too much further I'd like to walk through a non-exhaustive list of forms of "bad" communication, that can still be useful:
 
