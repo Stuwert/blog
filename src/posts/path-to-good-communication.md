@@ -5,7 +5,7 @@ tags: [productivity, meetings, leadership]
 description: Speaking poorly is not the same thing as communicating poorly, and we often get that mixed up.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-socialImage: /images/Dall-E-woman-at-table.png
+socialImage: /images/DALLE-2023-06-14-claymation-meeting.png
 ---
 
 If you refuse to communicate poorly it will be very hard to ever communicate well. Part of the reason that meetings go so poorly is that we mix up good and bad communication.
