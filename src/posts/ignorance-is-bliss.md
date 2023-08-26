@@ -2,7 +2,7 @@
 title: "Beneficial Ignorance: Presence, Focus, and Knowledge Work"
 date: 2023-08-26
 tags: [software-engineering, knowledge-work, current-trends]
-description: Selectively ignoring trends
+description: Selectively ignoring trends is important for building and maintaining your skills as a knowledge worker.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
 socialImage: /images/The-Line.png
