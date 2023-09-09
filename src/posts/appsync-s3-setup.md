@@ -211,6 +211,8 @@ I didn't do the final step of fully wiring this in with something like a Github 
 
 That would take this from a toy to a functioning service, but I didn't think it was necessary to take those steps because the core of the challenge was reading stuff from S3 without a lambda.
 
+<hr>
+
 ## What Did I Learn?
 
 **Live look at me building a bridge of knowledge**
