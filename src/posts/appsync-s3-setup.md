@@ -17,13 +17,17 @@ There was a lively back and forth but a couple of things fell out for me:
 1. I finally understood the power of having compute available outside of service boundaries
 2. Holy sh\*\* Id never actually implemented the thing I was recommending (like the good thought leader I am)
 
-So I took some time to figure out how to get this all working, and I'm going to walk you through how I set it up and what I learned.
-
-If you want to skip ahead to the results you can find them here: [https://github.com/Stuwert/s3-appsync-storage](https://github.com/Stuwert/s3-appsync-storage).
+It was also at this point that I realized it might be possible to not even set this up with a lambda, and instead direct connect from Appsync to S3. Some quickly googling showed me that someone had also done this [https://gist.github.com/wulfmann/82649af0d9fa7a0049ff8dd1440291e4](https://gist.github.com/wulfmann/82649af0d9fa7a0049ff8dd1440291e4), so I wanted to dive in and try it for myself.
 
 ## Overview
 
 My basic thought was to create a simple Graphql Functionality that would accept an `id` and return a string with a generic `name` . The goal is to create the base layer of functionality, not to build a functioning system.
+
+```graphql
+type Query {
+  name(id: ID!): String!
+}
+```
 
 ```json
 // storage.json
@@ -36,6 +40,10 @@ My basic thought was to create a simple Graphql Functionality that would accept 
   ]
 }
 ```
+
+I knew that it was possible to treat S3 like a simple storage mechanism, and I'd heard that you could even do some [pretty fancy stuff](https://arctype.com/blog/s3-select/) when it came to more complex queries from within a JSON or CSV file that's stored in S3. So I wanted to test it out for myself to see what it would look like. I'm going to walk you through how I set it up and what I learned.
+
+If you want to skip ahead to the results you can find them here: [https://github.com/Stuwert/s3-appsync-storage](https://github.com/Stuwert/s3-appsync-storage).
 
 ## Steps I Took
 
@@ -216,6 +224,8 @@ My recommendation got me thinking about how in the last 10 years if you needed a
 
 But this work actually pushed me even further to realize that the real benefits of "serverless" aren't actually the ability to push lambdas up to the cloud that live outside of big monoliths. I totally understand why, if your choices are between trying to spin up a new lambda to "do a thing" or to "add some code to a monolith" you'd go with the latter. The costs to doing the code and getting the lambda happy and dealing with cold starts are real. But... if you can decouple compute (heavy lifting that your backend does) from data access (serving stuff that your frontend needs), you can ship small and simple units of change that don't require a lot of maintenance. For example, if I wanted to move this to Dynamo in the future, it would be (I don't want to say trivial because there lies danger) a relatively simple pattern to update my datasource and swap out the resolvers doing the work, without changing the interface, or needing to manage too much of the underlying code.
 
-The other thing I realized is that half of the reticence with my recommendation is the fact that you have to stitch a lambda between Appsync (your graphql provider) and S3, your storage.
+The other thing I realized is that half of the reticence with my earlier recommendation is the fact that you have to stitch a lambda between Appsync (your graphql provider) and S3, your storage. Spinning up a lambda means doing stuff like managing Node or Python versions, packages, and references. Doing a direct connect is closer to 4-5 files that you could reasonably put in any repo that you feel fits.
 
-The reason I was arguing for S3 here is that the data being stored here was a couple of lines, didn’t change often, and it would be nice to maintain a historical view without having to actually implement any of that.
+I don't like the phrase "the best code is no code", but I've really been leaning into this idea that good code should be easy to replace and remove, and what I love most about this implementation is how small the surface area is to get rid of. If I wanted to deprecate this in the future it would be a process of removing the cloudformation stack, and archiving a repo (or deleting the files), it's a much smaller imprint than trying to pull out old code!
+
+Hope this helps!
