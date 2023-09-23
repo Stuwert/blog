@@ -8,7 +8,7 @@ status: published
 socialImage: /images/postage-stamp.jpg
 ---
 
-In which I share my two cents (cue laughter), in no particular order.
+In which I share my two cents (cue laughter), in no particular order. (Which I'm sure I'll look back on with nothing but glowing admiration 10 years from now)
 
 [2 Cent Postage Stamp](/images/postage-stamp.jpg)
 _An 1879 Postage Stamp, Smithsonian_
