@@ -25,8 +25,10 @@ Being skeptical is one of the more policed forms of communication, and I think i
 
 Firstly, I think skepticism cuts against the incredibly popular aphorism "disagree and commit". The idea of disagree and commit is that "we're a team here so once we make a decision, in order to continue being a part of that team, get on board".
 
-> “Disagree and commit” is one of those things you hear about in business all the time because it’s basically like, look you’re not going to agree all the time and sometimes you just have to do the thing. It’s the boring version of doing something that you know is stupid for a good friend because you love them and that social bond is way more important you being right. I think about it a lot because from a business perspective it becomes this monk like sort of discipline where you ascend in practice by being able to supersede your earthly desires for the good of the shareholders.
-> But like... if a bestie asks me to do something I think is stupid, I'll tell them that. And then if they still want to do it, I will help them do it because I love them. It's not a matter of discipline, it's a matter of trust and love.
+<aside class="content__aside">
+“Disagree and commit” is one of those things you hear about in business all the time because it’s basically like, look you’re not going to agree all the time and sometimes you just have to do the thing. It’s the boring version of doing something that you know is stupid for a good friend because you love them and that social bond is way more important you being right. I think about it a lot because from a business perspective it becomes this monk like sort of discipline where you ascend in practice by being able to supersede your earthly desires for the good of the shareholders.
+But like... if a best friend asks me to do something I think is stupid, I'll tell them that. And then if they still want to do it, I will help them do it because I love them. It's not a matter of discipline, it's a matter of trust and love.
+</aside>
 
 Confusion expressed as skepticism is typically not obstinance in my experience. It’s someone who doesn’t know where to start and is expressing that uncertainty through critical language. Disagree and commit doesn’t work here because there’s no earnest disagreement. The issue is that there’s no material knowledge to disagree with or to commit to to.
 
