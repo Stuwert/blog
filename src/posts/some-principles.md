@@ -17,7 +17,7 @@ _An 1879 Postage Stamp, Smithsonian_
 
 Premature optimization is the root of all sins and all that. But it's not just hard to understand the shape of the usage of the tools you build. So limit your scope, ship what you understand and learn from it.
 
-## Failures are a more effective indicator of what ot optimize than best practices
+## Failures are a more effective indicator of what to optimize than best practices
 
 Failures are a reality of modern software engineering. Instead of trying to "move fast and break things" or trying to optimize until the cows come home, try to limit the scope of changes, make failures as non-detrimental to yourself and your users, and use them as part of your learning and development process.
 
