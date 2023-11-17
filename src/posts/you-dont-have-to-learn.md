@@ -8,6 +8,8 @@ status: published
 socialImage: /images/whiteboard.jpg
 ---
 
+### Nothing. The Correct Answer is Nothing.
+
 I've wrote before about the benefits of [working in public](/posts/do-you-need-to-work-in-public/) (and not) and w[hether or not you actually have to pay attention to every (or any) trends](/posts/beneficial-ignorance-presence-focus-and-knowledge-work/). But I want to spend some time talking about the value of learning.
 
 So yeah, I was in a conference room with some coworkers and we had to wipe the whiteboard clean. In a normal interaction, that would in fact be the end of this. But I am someone who writes, so I decided to write about it. (God bless you for reading this)
