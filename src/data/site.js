@@ -25,6 +25,11 @@ module.exports = {
       url: "/best",
       external: false,
     },
+    {
+      text: "Resume",
+      url: "https://docs.google.com/document/d/19TyMS64cFh-DTWb3PHIyroicCF33Z6EX8P8TahwW1JY",
+      external: true,
+    },
   ],
   socialLinks: [
     {
