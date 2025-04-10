@@ -42,6 +42,11 @@ module.exports = {
       url: "https://linkedin.com/in/stuwert",
       external: true,
     },
+    {
+      text: "Writing about Game Design",
+      url: "https://curate.games",
+      external: true,
+    }
   ],
   footerLinks: [
     {
