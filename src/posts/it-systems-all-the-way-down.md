@@ -5,7 +5,7 @@ tags: [leadership, management, engineering]
 description: What books on how systems fail and how big projects succeed can teach us about software engineering.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-socialImage: /images/construction.jpg
+socialImage: /images/workers-at-construction-site.jpg
 ---
 
 A review of two of my favorite books of the last 12 months. [The Unaccountability Machine By Dan Davies](https://www.amazon.com/dp/0226843084/?bestFormat=true&k=the%20unaccountability%20machine) and[How Big Things Get Done by Bent Flyvbjerg](https://www.amazon.com/dp/0593239512/?bestFormat=true&k=how%20big%20things%20get%20done)
