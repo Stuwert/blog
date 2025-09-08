@@ -1,5 +1,5 @@
 ---
-title: "It's Systems All the Way Down: A Review of How Big Things Get Done and The Unaccountability Machine"
+title: Systems All the Way Down
 date: 2025-09-07
 tags: [leadership, management, engineering]
 description: What books on how systems fail and how big projects succeed can teach us about software engineering.
