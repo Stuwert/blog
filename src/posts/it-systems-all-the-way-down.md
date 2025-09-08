@@ -8,8 +8,6 @@ status: published
 socialImage: /images/construction.jpg
 ---
 
-# It's Systems All The Way Down
-
 A review of two of my favorite books of the last 12 months. [The Unaccountability Machine By Dan Davies](https://www.amazon.com/dp/0226843084/?bestFormat=true&k=the%20unaccountability%20machine) and[How Big Things Get Done by Bent Flyvbjerg](https://www.amazon.com/dp/0593239512/?bestFormat=true&k=how%20big%20things%20get%20done)
 
 Unexpectedly two of my favorite books in the last year are _How Big Things Get Done_ and _The Unaccountability Machine_. You wouldn't really think they relate to one another. _How Big Things Get Done_ is a book about why and how big projects happen and _The Unaccountability Machine_ is a scathing look at why the world feels so crappy because of the way businesses and governments are set up. But both books are about systemic capacity and measurement. And both books care deeply about seeing systems not as a grouping of interchangeable parts but as a representation of processes that can not simply be decomposed without cost. This aligns with the viewpoint that the atomic measurement of software engineering isn't an engineer it's a team.
