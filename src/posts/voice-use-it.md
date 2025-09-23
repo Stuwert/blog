@@ -12,7 +12,7 @@ Probably the most pro-Democracy work of fiction I’ve read this year in a story
 
 ... Minor Spoilers Ahead for the Book, So Go Read It First?
 
-![](/images/drop-corruption.jpg)
+![Cover of A Drop of Corruption](/images/drop-corruption.jpg)
 
 And in it the narrator is this young detective assistant who dreams of running off to join the army to do the important work of defending the empire. But the book itself is an exploration of all the ways that power structures seep into our daily lives and how they shape our decisions.
 
