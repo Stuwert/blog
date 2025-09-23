@@ -45,14 +45,13 @@
     {% if desc %}
       <meta name="description" content="{{ desc | escape  }}">
       <meta property="og:description" content="{{ desc | escape }}">
-      <meta name="description" content="{{ desc | escape }}"/>
     {% endif %}
 
     {% if not socialImage %}
       {% set socialImage = site.defaultSocialImage %}
     {% endif %}
     {% if socialImage %}
-      <meta property="og:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
+      <meta name="image" property="og:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
       <meta name="twitter:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
     {% endif %}
 
