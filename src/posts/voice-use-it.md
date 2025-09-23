@@ -5,14 +5,14 @@ tags: [leadership, management, engineering]
 description: What A Drop of Corruption Has to Say About Software Engineering
 permalink: posts/{{ title | slugify }}/index.html
 status: published
-socialImage: /images/drop-corruption.jpg
+socialImage: /images/drop-corruption.jpeg
 ---
 
 Probably the most pro-Democracy work of fiction I’ve read this year in a story that is not ostensibly about Democracy is _A Drop of Corruption_. It is the second in a series set within an “Attack on Titan” inspired fantasy world about mold and fungus giving people special powers so… natch.
 
 ... Minor Spoilers Ahead for the Book, So Go Read It First?
 
-![Cover of A Drop of Corruption](/images/drop-corruption.jpg)
+![Cover of A Drop of Corruption](/images/drop-corruption.jpeg)
 
 And in it the narrator is this young detective assistant who dreams of running off to join the army to do the important work of defending the empire. But the book itself is an exploration of all the ways that power structures seep into our daily lives and how they shape our decisions.
 
