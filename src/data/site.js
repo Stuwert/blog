@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       text: "Resume",
-      url: "https://docs.google.com/document/d/1N1d24zfVuIihlgOCRMhgmAKLwWsPo5E5/edit?usp=sharing&ouid=101748852398757749356&rtpof=true&sd=true",
+      url: "https://docs.google.com/document/d/1N1d24zfVuIihlgOCRMhgmAKLwWsPo5E5/edit?usp=sharing&ouid=101748852398757749356&rtpof=true&sd=truehttps://docs.google.com/document/d/1ch8Z_xDblrSynHFDzeMpSzZJ1ggEshrJgeK19PlE3gQ/edit?usp=sharing",
       external: true,
     },
   ],
