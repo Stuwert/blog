@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       text: "Resume",
-      url: "https://docs.google.com/document/d/19TyMS64cFh-DTWb3PHIyroicCF33Z6EX8P8TahwW1JY",
+      url: "https://docs.google.com/document/d/1N1d24zfVuIihlgOCRMhgmAKLwWsPo5E5/edit?usp=sharing&ouid=101748852398757749356&rtpof=true&sd=true",
       external: true,
     },
   ],
@@ -46,7 +46,7 @@ module.exports = {
       text: "Writing about Game Design",
       url: "https://curate.games",
       external: true,
-    }
+    },
   ],
   footerLinks: [
     {
