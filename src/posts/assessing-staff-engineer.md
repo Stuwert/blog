@@ -1,7 +1,7 @@
 ---
 title: How Do You Assess a Staff(+) Engineering Candidate?
 date: 2025-08-28
-tags: [engineering, hiring, staff-engineer]
+tags: [engineering, hiring, staff-plus-engineering]
 description:
 permalink: posts/{{ title | slugify }}/index.html
 status: published
