@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
@@ -70,9 +70,8 @@ module.exports = function (eleventyConfig) {
     return highlighter(str, language);
   });
 
-  eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
-  eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
+  eleventyConfig.setServerOptions({ watch: [manifestPath] });
 
   eleventyConfig.addShortcode("bundledcss", function () {
     return manifest["main.css"]
@@ -232,9 +231,9 @@ module.exports = function (eleventyConfig) {
       });
   });
 
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", async function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html") && isProd) {
-      return htmlmin.minify(content, {
+      return await htmlmin.minify(content, {
         removeComments: true,
         collapseWhitespace: true,
         useShortDoctype: true,
