@@ -1,7 +1,7 @@
 ---
 title: Starting to figure out AWS SAM Sync
 date: 2023-02-02
-tags: [serverless, aws, aws-sam, local-development]
+tags: [cloud-and-serverless, engineering-craft]
 description: What is AWS SAM Sync for?
 permalink: posts/{{ title | slugify }}/index.html
 status: published

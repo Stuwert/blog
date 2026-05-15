@@ -1,7 +1,7 @@
 ---
 title: An Attempt to Explain Relational and Document Storage
 date: 2023-05-10
-tags: [serverless, aws, dynamodb, postgres, databases]
+tags: [cloud-and-serverless, engineering-craft]
 description: A simple, maybe visual, explanation of the basics of databases and the difference between document and relational storage.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

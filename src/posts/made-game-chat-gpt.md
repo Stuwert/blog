@@ -3,7 +3,7 @@ title: I Made a Game With ChatGPT, Here’s What Happened Next
 author: Stuart Urback
 date: 2023-05-16
 description: What I learned trying to integrate ChatGPT into a single player web game.
-tags: [game-design, chatgpt, ai, serverless]
+tags: [ai, games]
 status: published
 socialImage: /images/Dall-E-2023-05-16-board-game-code.png
 ---

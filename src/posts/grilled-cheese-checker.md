@@ -1,7 +1,7 @@
 ---
 title: Grilled Cheese and Checkers
 author: Stuart Urback
-tags: [personal, games]
+tags: [games]
 date: 2021-02-15T05:58:01.281Z
 description: Reflecting on the life and my relationship with my grandparents through games.
 socialImage: images/games/IMG_0453-2.jpeg

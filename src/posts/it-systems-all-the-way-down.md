@@ -1,7 +1,7 @@
 ---
 title: Systems All the Way Down
 date: 2025-09-07
-tags: [leadership, management, engineering]
+tags: [leadership, media-review]
 description: Two books on how systems and projects fail and how they can teach us to be better software engineers.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

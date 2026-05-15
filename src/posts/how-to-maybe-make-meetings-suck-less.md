@@ -1,7 +1,7 @@
 ---
 title: How to Maybe Lead a Good Meeting
 date: "2022-09-12"
-tags: [productivity, meetings, leadership]
+tags: [communication, leadership]
 description: Quick thoughts on how to make your meetings suck less, maybe
 permalink: posts/{{ title | slugify }}/index.html
 status: published

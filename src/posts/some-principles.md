@@ -1,7 +1,7 @@
 ---
 title: Some General Software Principles I've Accumulated (Circa 2023)
 date: 2023-09-23
-tags: [leadership, misc]
+tags: [engineering-craft, leadership]
 description: Accumulated thoughts about being an engineer
 permalink: posts/{{ title | slugify }}/index.html
 status: published

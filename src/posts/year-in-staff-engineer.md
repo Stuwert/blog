@@ -1,7 +1,7 @@
 ---
 title: Reflections on a Year as a Staff Engineer
 date: 2023-09-06
-tags: [staff-plus-engineering, hypotheses, leadership]
+tags: [staff-engineering, leadership]
 description: Looking back a year later and seeing how accurate my predictions about becoming a staff engineer were.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

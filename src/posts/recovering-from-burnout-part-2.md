@@ -1,7 +1,7 @@
 ---
 title: "The Art of Self Preservation Part 2: Recovery"
 date: 2023-02-13
-tags: [mental-health, acquisition, burn-out, recovery]
+tags: [career, mental-health]
 description: In which I start to recount my journey into realizing I was burnt out.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

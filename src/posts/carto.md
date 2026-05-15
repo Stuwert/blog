@@ -3,7 +3,7 @@ title: "Carto: Game of 2020"
 author: Stuart Urback
 date: 2020-12-19T19:10:48.068Z
 description: The best game of 2020.
-tags: [games, computer-games]
+tags: [games]
 status: published
 socialImage: /images/games/img_0082.webp
 favorite: 3

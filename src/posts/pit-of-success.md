@@ -1,7 +1,7 @@
 ---
 title: Don't Build a Pit, Outfit Your Explorers
 date: 2022-09-14
-tags: [engineering, leadership]
+tags: [engineering-craft, leadership]
 description: Some thoughts on how to build pits of success so your developers actually fall in them.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

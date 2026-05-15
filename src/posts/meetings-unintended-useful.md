@@ -1,7 +1,7 @@
 ---
 title: Unintended Benefits Don’t Make Meetings Useful
 date: 2023-06-06
-tags: [productivity, meetings, leadership]
+tags: [communication, leadership]
 description: One of the main reasons it's hard to judge meetings well because we can't help but find them so useful, even when they're not.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

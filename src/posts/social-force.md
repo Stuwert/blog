@@ -1,14 +1,7 @@
 ---
 title: "The Power of Social Force in Leadership: Using Tone, Language, and Body Language to Influence Change"
 date: 2023-05-29
-tags:
-  [
-    management,
-    leadership,
-    interpersonal,
-    psychological-safety,
-    getting-stuff-done,
-  ]
+tags: [leadership, communication]
 description: What should you do when you have something that really needs to get done?
 permalink: posts/{{ title | slugify }}/index.html
 status: published

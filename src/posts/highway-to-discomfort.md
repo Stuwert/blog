@@ -1,13 +1,7 @@
 ---
 title: "Highway To The Discomfort Zone: Promoting constructive conflict as an IC"
 date: 2023-04-21
-tags:
-  [
-    task based conflict,
-    psychological safety,
-    individual contributor leadership,
-    team communication,
-  ]
+tags: [communication, leadership]
 description: Discomfort is an important but often under-discussed area of how individual contributors can help lead their teams.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

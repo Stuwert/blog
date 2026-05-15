@@ -1,7 +1,7 @@
 ---
 title: What’s the Difference Between the AWS CDK and the SDK?
 date: 2023-05-06
-tags: [serverless, aws, dynamodb, cloudformation]
+tags: [cloud-and-serverless]
 description: How I differentiate the AWS CDK and AWS SDK
 permalink: posts/{{ title | slugify }}/index.html
 status: published

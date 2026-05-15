@@ -1,7 +1,7 @@
 ---
 title: How Much Project Management should a Software Engineer Do?
 date: 2025-08-22
-tags: [engineering, leadership, project-management]
+tags: [staff-engineering, leadership]
 description: Parsing out what good (versus toxic) project management and technical leadership looks like as an individual contributor can be hard, lets' talk about some good and bad examples.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

@@ -1,7 +1,7 @@
 ---
 title: You Have a Voice. Please Use It.
 date: 2025-09-23
-tags: [leadership, management, engineering]
+tags: [leadership, media-review]
 description: What A Drop of Corruption Has to Say About Software Engineering
 permalink: posts/{{ title | slugify }}/index.html
 status: published

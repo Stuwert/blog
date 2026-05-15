@@ -2,7 +2,7 @@
 title: Ingesting External Financial Data
 oldTitle: Building out an Ingestion System
 author: Stuart Urback
-tags: [backend-engineering, software-architecture]
+tags: [engineering-craft]
 date: 2021-04-18
 description: An overview of a financial ingestion data structure.
 status: published

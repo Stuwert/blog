@@ -1,7 +1,7 @@
 ---
 title: A (Deeply Incomplete) Review of The Staff Engineer's Path
 date: 2023-02-28
-tags: [staff-plus-engineering, hypotheses, leadership, book-review]
+tags: [staff-engineering, media-review]
 description: My thoughts on The Staff Engineer's Path by Tanya Reilly.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

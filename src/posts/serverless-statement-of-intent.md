@@ -1,7 +1,7 @@
 ---
 title: Serverless Learning Statement of Intent
 date: 2022-09-24
-tags: [engineering, serverless]
+tags: [cloud-and-serverless]
 description: What do I want to accomplish learning about serverless?
 permalink: posts/{{ title | slugify }}/index.html
 status: published

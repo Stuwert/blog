@@ -1,7 +1,7 @@
 ---
 title: Skepticism is Learning Too
 date: 2023-09-22
-tags: [leadership, criticism]
+tags: [leadership, communication]
 description: Some thoughts on the most maligned emotion in business
 permalink: posts/{{ title | slugify }}/index.html
 status: published

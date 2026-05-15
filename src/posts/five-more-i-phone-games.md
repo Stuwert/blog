@@ -2,7 +2,7 @@
 title: Five iPhone Games You Probably Haven't Tried, But Should
 oldTitle: Five More Phone Games
 date: 2022-10-07
-tags: [games, phone-games]
+tags: [games]
 description: Five iPhone Games Under $5 that you should take a look at
 permalink: posts/{{ oldTitle | slugify }}/index.html
 status: published

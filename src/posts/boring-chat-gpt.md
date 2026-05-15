@@ -1,7 +1,7 @@
 ---
 title: 5 Boring Questions about ChatGPT and working
 date: 2023-03-25
-tags: [engineering, artificial-intelligence, leadership]
+tags: [ai, leadership]
 description: Mundane questions about how chatgpt will change the workplace experience
 permalink: posts/{{ title | slugify }}/index.html
 status: published

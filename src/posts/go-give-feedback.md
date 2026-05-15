@@ -1,7 +1,7 @@
 ---
 title: Go Give Someone Feedback
 date: 2023-02-17
-tags: [leadership, feedback, psychological-safety]
+tags: [communication, leadership]
 description: You should try to give a coworker written, positive feedback, once a week.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

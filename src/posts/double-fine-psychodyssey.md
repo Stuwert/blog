@@ -1,7 +1,7 @@
 ---
 title: Seven, Mostly Disconnected, Thoughts on Leadership I had while watching the Double Fine Documentary
 date: 2023-04-13
-tags: [engineering, creativity, leadership, game-design]
+tags: [leadership, games]
 description:
 permalink: posts/{{ title | slugify }}/index.html
 status: published

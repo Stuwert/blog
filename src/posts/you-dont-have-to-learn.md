@@ -1,7 +1,7 @@
 ---
 title: I Spent Some Time This Afternoon Wiping Down a Whiteboard, Here's What I learned
 date: 2023-11-16
-tags: [leadership, knowledge-work, leadership]
+tags: [career, engineering-craft]
 description: Nothing. The Correct answer is nothing.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

@@ -1,14 +1,7 @@
 ---
 title: "Staff Engineering and AI"
 date: 2026-05-14
-tags:
-  [
-    staff-plus-engineering,
-    leadership,
-    individual-contributor-leadership,
-    software-engineering,
-    ai,
-  ]
+tags: [staff-engineering, leadership, ai]
 description: Second-time staff engineering lessons on taking up space, building incremental progress, and navigating organizational narratives — and why AI makes all of it harder by trading coherence for speed.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

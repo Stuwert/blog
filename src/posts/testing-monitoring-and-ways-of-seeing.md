@@ -2,7 +2,7 @@
 title: '"Seeing" Code as a Dev: Testing and Observability'
 oldTitle: '"Seeing" Code as a Dev: Testing and Monitoring'
 date: 2023-02-25
-tags: [monitoring, testing, developer-experience]
+tags: [engineering-craft]
 description: TDD, Monitoring, and other things can feel like buzzwords, but they're actually key ways to "see" the systems we build, especially as we scale.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

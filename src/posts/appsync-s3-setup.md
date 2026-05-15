@@ -1,7 +1,7 @@
 ---
 title: Hooking Up AWS Appsync to S3 in 6 Hours(ish)
 date: 2023-09-09
-tags: [appsync, serverless, aws, aws-sam, s3]
+tags: [cloud-and-serverless, engineering-craft]
 description: How to create a direct connection between Appsync and config data in s3
 permalink: posts/{{ title | slugify }}/index.html
 status: published

@@ -1,6 +1,6 @@
 ---
 title: "Dicey Dungeons: A Roll-icking Adventure"
-tags: [phone-games, game-design]
+tags: [games]
 author: Stuart Urback
 date: 2021-01-03T17:32:21.037Z
 description:

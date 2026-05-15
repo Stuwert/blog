@@ -1,7 +1,7 @@
 ---
 title: The Path to Good Communication is "Bad" Communication
 date: 2023-06-14
-tags: [productivity, meetings, leadership]
+tags: [communication, leadership]
 description: Speaking poorly is not the same thing as communicating poorly, and we often get that mixed up.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

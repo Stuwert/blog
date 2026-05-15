@@ -1,7 +1,7 @@
 ---
 title: "Leaving on a High Note: Build Bridges While You Leave Your Team"
 date: 2023-03-05
-tags: [engineering, emotions, team-dynamics, exiting, leadership]
+tags: [career, leadership]
 description: Reflecting on successful and unsuccessful team exits, and what I learned from them.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

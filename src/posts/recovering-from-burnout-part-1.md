@@ -1,7 +1,7 @@
 ---
 title: "The Art of Self-Preservation Part 1: Recognizing I Was Burnt"
 date: 2023-02-03
-tags: [mental-health, acquisition, burn-out]
+tags: [career, mental-health]
 description: In which I start to recount my journey into realizing I was burnt out.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

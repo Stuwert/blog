@@ -1,7 +1,7 @@
 ---
 title: Leadership is an Orca Cake
 date: 2023-10-13
-tags: [leadership, banality, slack]
+tags: [leadership]
 description: What an orca cake can teach us about how we talk about leadership
 permalink: posts/{{ title | slugify }}/index.html
 status: published

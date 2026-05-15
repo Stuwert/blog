@@ -12,8 +12,7 @@ module.exports = {
   defaultSocialImage: "/images/default-social-image.png",
   headerLinks: [
     {
-      text: "Serverless Deep Dive",
-      url: "/serverless",
+      text: "Administration of Play",
     },
     {
       text: "Tags",

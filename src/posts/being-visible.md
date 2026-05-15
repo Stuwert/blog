@@ -1,7 +1,7 @@
 ---
 title: Being Visible to the People You Lead
 date: 2023-01-20
-tags: [staff-plus-engineering, leadership]
+tags: [leadership, staff-engineering]
 description: The challenges and benefits of proactively showcasing your work to the people you lead, in addition to the people who manage you.
 permalink: posts/{{ title | slugify }}/index.html
 status: published

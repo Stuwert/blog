@@ -1,7 +1,7 @@
 ---
 title: DynamoDB Adventure, Stepping Into NoSQL Storage Land
 date: 2023-05-05
-tags: [serverless, aws, aws-sam, local-development, dynamodb, nosql]
+tags: [cloud-and-serverless, engineering-craft]
 description: Discover the DynamoDB concepts that transformed how I think about NoSQL and data storage in general.
 permalink: posts/{{ title | slugify }}/index.html
 status: published
