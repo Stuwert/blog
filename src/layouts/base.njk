@@ -12,8 +12,6 @@
 
     <link rel="canonical" href={{ canonicalLink }}>
 
-    {% bundledcss %}
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
@@ -60,13 +58,7 @@
       <script src="https://cdn.usefathom.com/script.js" data-site="YNWWFIKO" defer></script>
       <!-- / Fathom -->
     {% endif %}
-    <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.2/nutshell.js" defer>
-    </script>
-    <script>
-      Nutshell.setOptions({
-        startOnLoad: false
-      })
-    </script>
+
   </head>
   <body>
     <div class="layout-wrapper">
@@ -162,6 +154,7 @@
 
     </footer>
 
+    {% bundledcss %}
     {% bundledjs %}
   </body>
   <script>
@@ -170,4 +163,13 @@
         Nutshell.start(articleElement);
       }
   </script>
+  <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.8/nutshell.js"></script>
+  <script>
+    Nutshell.setOptions({
+      startOnLoad: true, // Start Nutshell on load? (default: true)
+      lang: 'en', // Language (default: 'en', which is English)
+      dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
+    });
+  </script
+
 </html>
