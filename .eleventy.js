@@ -15,7 +15,7 @@ const manifestPath = path.resolve(
   __dirname,
   "public",
   "assets",
-  "manifest.json"
+  "manifest.json",
 );
 
 const manifest = isDev
@@ -56,7 +56,7 @@ module.exports = function (eleventyConfig) {
 
   const markdownLib = markdownIt(markdownItOptions).use(
     markdownItAnchor,
-    markdownItAnchorOptions
+    markdownItAnchorOptions,
   );
 
   eleventyConfig.setLibrary("md", markdownLib);
@@ -81,7 +81,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("bundledjs", function () {
     return manifest["main.js"]
-      ? `<script src="${manifest["main.js"]}"></script>`
+      ? `<script src="${manifest["main.js"]}" defer></script>`
       : "";
   });
 
@@ -92,7 +92,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
+      "dd LLL yyyy",
     );
   });
 
@@ -162,7 +162,7 @@ module.exports = function (eleventyConfig) {
 
         return hasTag !== undefined;
       });
-    }
+    },
   );
 
   eleventyConfig.addCollection("tagList", function (collection) {
@@ -198,7 +198,7 @@ module.exports = function (eleventyConfig) {
     });
 
     popularPosts.sort(
-      ({ data: dataA }, { data: dataB }) => dataB.popularity - dataA.popularity
+      ({ data: dataA }, { data: dataB }) => dataB.popularity - dataA.popularity,
     );
 
     console.log(popularPosts.length);
@@ -212,7 +212,7 @@ module.exports = function (eleventyConfig) {
     });
 
     favoritePosts.sort(
-      ({ data: dataA }, { data: dataB }) => dataB.favorite - dataA.favorite
+      ({ data: dataA }, { data: dataB }) => dataB.favorite - dataA.favorite,
     );
 
     console.log(favoritePosts.length);
