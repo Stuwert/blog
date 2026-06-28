@@ -61,15 +61,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
-  // setup mermaid markdown highlighter
-  const highlighter = eleventyConfig.markdownHighlighter;
-  eleventyConfig.addMarkdownHighlighter((str, language) => {
-    if (language === "mermaid") {
-      return `<pre class="mermaid">${str}</pre>`;
-    }
-    return highlighter(str, language);
-  });
-
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
   eleventyConfig.setServerOptions({ watch: [manifestPath] });
 
