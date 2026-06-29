@@ -159,18 +159,21 @@
     {% bundledjs %}
   </body>
   <script>
-      const articleElement = document.querySelector('article');
-      if (articleElement) {
-        Nutshell.start(articleElement);
-      }
-  </script>
-  <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.8/nutshell.js"></script>
-  <script>
-    Nutshell.setOptions({
-      startOnLoad: true, // Start Nutshell on load? (default: true)
-      lang: 'en', // Language (default: 'en', which is English)
-      dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
-    });
-  </script
 
+  </script>
+
+  <script>
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.8/nutshell.min.js';
+    s.onload = () => {
+      // configure BEFORE starting, and don't let it auto-run
+      Nutshell.setOptions({ dontEmbedHeadings: true, startOnLoad: false });
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => Nutshell.start());
+      } else {
+        Nutshell.start();
+      }
+    };
+    document.head.appendChild(s);
+  </script>
 </html>
