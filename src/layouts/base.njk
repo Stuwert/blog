@@ -167,11 +167,18 @@
     s.src = 'https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.8/nutshell.min.js';
     s.onload = () => {
       // configure BEFORE starting, and don't let it auto-run
-      Nutshell.setOptions({ dontEmbedHeadings: true, startOnLoad: false });
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => Nutshell.start());
-      } else {
-        Nutshell.start();
+      Nutshell.setOptions({ 
+      //  dontEmbedHeadings: true, 
+        startOnLoad: false 
+      });
+      const articleElement = document.querySelector("article");
+      
+      if (articleElement) {
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', () => {Nutshell.start(articleElement)});
+        } else {
+          Nutshell.start(articleElement);
+        }
       }
     };
     document.head.appendChild(s);
