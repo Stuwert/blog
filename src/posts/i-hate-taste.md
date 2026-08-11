@@ -2,7 +2,7 @@
 title: 'I Hate "Taste"'
 date: 2026-08-10
 tags: [software-engineering, metaphors, ai]
-description: "Taste" isn't an ineffable aesthetic sense — it's the predictive skill of anticipating an LLM's output and judging whether each step moves toward or away from a goal.
+description: \"Taste\" isn't an ineffable aesthetic sense — it's the predictive skill of anticipating an LLM's output and judging whether each step moves toward or away from a goal.
 permalink: posts/{{ title | slugify }}/index.html
 status: draft
 ---
