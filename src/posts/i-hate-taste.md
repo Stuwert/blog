@@ -11,7 +11,9 @@ I still remember The Decoder episode where Nilay Patel was interviewing the CEO 
 
 And yet it's a concept and idea that has so found so much purchase in our popular culture. The idea that Taste isn't a skill, it's a perspective on the world of something that you'll "know when you see". It's the idea that the reams of knowledge and understanding that have been built up over the decades is worth something, but it's also not something that you can explain or share with any other human being.
 
-It's just. It's total fucking bullshit.
+It's not all that dissimilar to the way that challenging conversations end with "it depends"! Like we've all discovered some hidden trait of the universe that details are tricky to suss out. Those details are where the hard work begins, not where it ends. And our desire to stop there doesn't reflect an impossibility to understand the world, it reflects our own desire to not push too hard and to not do the work to win small and important nuggets of wisdom.
+
+"Taste" is total fucking bullshit.
 
 Tacit knowledge is real. Tacit knowledge that's the accumulation of experience is real. It's not taste though. And by that I mean, the key differentiator between "having taste" and "not having taste" actually has nothing to do with "good" (whatever that's supposed to mean). I think what you're actually seeing is something much closer to a prediction match or a prediction mismatch.
 
